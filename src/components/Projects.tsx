@@ -119,6 +119,18 @@ const Projects = () => {
             </Card>
           ))}
         </div>
+        <div className="mt-12 text-center animate-fade-in stagger-4">
+  <a
+    href="https://github.com/nikita-sinhaa"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button variant="glow" size="lg" className="hover-scale hover-glow">
+      <ExternalLink className="mr-2 h-5 w-5" />
+      Explore More Projects on GitHub
+    </Button>
+  </a>
+</div>
       </div>
     </section>
   );
