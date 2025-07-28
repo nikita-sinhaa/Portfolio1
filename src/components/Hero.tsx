@@ -1,21 +1,20 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
 
 const Hero = () => {
+  const [showContact, setShowContact] = useState(false);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
+      {/* Background */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBackground})` }}
       >
         <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" />
       </div>
-
-      {/* Glow Effects */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-glow opacity-30 rounded-full blur-3xl" />
-      <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-gradient-glow opacity-20 rounded-full blur-3xl" />
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
@@ -30,7 +29,7 @@ const Hero = () => {
             Embedded Engineer who is turning real-time challenges into real-world solutions
           </p>
 
-          {/* Resume + Contact Buttons */}
+          {/* Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in stagger-3">
             <a
               href="https://drive.google.com/file/d/12PafDLQuNIJJTCDmBNTZnlXn5xv0uXKn/view?usp=drive_link"
@@ -43,13 +42,25 @@ const Hero = () => {
               </Button>
             </a>
 
-            <Button variant="tech" size="lg" className="hover-scale">
+            <Button
+              variant="tech"
+              size="lg"
+              className="hover-scale"
+              onClick={() => setShowContact((prev) => !prev)}
+            >
               <Mail className="mr-2 h-5 w-5" />
               Get In Touch
             </Button>
           </div>
 
-          {/* Social Buttons */}
+          {/* Contact Info */}
+          {showContact && (
+            <div className="pt-4 text-lg text-foreground font-medium animate-fade-in">
+              📞 Phone: <span className="text-primary font-semibold">317-982-4290</span>
+            </div>
+          )}
+
+          {/* Social Icons */}
           <div className="flex justify-center gap-6 pt-8 animate-fade-in stagger-4">
             <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float">
               <Github className="h-6 w-6" />
