@@ -3,8 +3,8 @@ const Companies = () => {
     { name: "keelworks", logo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.keelworks.org%2Fabout&psig=AOvVaw0tvElO8g39eYESJnYnizZp&ust=1753805296792000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPifhIL4344DFQAAAAAdAAAAABAE" },
     { name: "Kohler", logo: "https://en.m.wikipedia.org/wiki/File:Kohler_logo.svg" },
     { name: "Kirloskar", logo: "https://commons.wikimedia.org/wiki/File:Kirloskar_Group_Logo.svg" },
-    { name: "IITD", logo: "https://sa.wikipedia.org/wiki/%E0%A4%B8%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%BF%E0%A4%95%E0%A4%BE:IIT_Delhi_logo.png" },
-    { name: "IITK", logo: "https://sa.wikipedia.org/wiki/%E0%A4%B8%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%BF%E0%A4%95%E0%A4%BE:IIT_Kanpur_Logo.png" },
+    { name: "IITD", logo: "https://en.wikipedia.org/wiki/IIT_Delhi#/media/File:Indian_Institute_of_Technology_Delhi_Logo.svg" },
+    { name: "IITK", logo: "https://en.wikipedia.org/wiki/IIT_Kanpur#/media/File:IIT_Kanpur_Logo.svg" },
     { name: "Purdue", logo: "https://commons.wikimedia.org/wiki/File:Purdue_Boilermakers_logo.svg" },
     { name: "Indiana ", logo: "https://commons.wikimedia.org/wiki/File:Indiana_Hoosiers_logo.svg" },
     { name: "IGW", logo: "https://commons.wikimedia.org/wiki/File:IGW-Logo.svg" }
