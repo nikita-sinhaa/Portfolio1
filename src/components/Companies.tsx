@@ -1,14 +1,23 @@
+import KeelworksLogo from '../assets/KeelWorks.svg';
+import KohlerLogo from '../assets/Kohler.svg';
+import KirloskarLogo from '../assets/Kirloskar.svg';
+import IITDLogo from '../assets/IITD.svg';
+import IITKLogo from '../assets/IITK.svg';
+import PurdueLogo from '../assets/Purdue.svg';
+import IULogo from '../assets/IU.svg';
+import IGWLogo from '../assets/IGW.svg';
+
 const Companies = () => {
- const companies = [
-  { name: "Keelworks", logo: "@/assets/KeelWorks.svg" },
-  { name: "Kohler", logo: "@/assets/Kohler.svg"},
-  { name: "Kirloskar", logo: "@/assets/Kirloskar.svg" },
-  { name: "IITD", logo: "@/assets/IITD.svg" },
-  { name: "IITK", logo: "@/assets/IITK.svg" },
-  { name: "Purdue", logo: "@/assets/Purdue.svg" },
-  { name: "Indiana", logo: "@/assets/IU.svg" },
-  { name: "IGW", logo:"@/assets/IGW.svg" }
-];
+  const companies = [
+    { name: "Keelworks", logo: KeelworksLogo },
+    { name: "Kohler", logo: KohlerLogo },
+    { name: "Kirloskar", logo: KirloskarLogo },
+    { name: "IITD", logo: IITDLogo },
+    { name: "IITK", logo: IITKLogo },
+    { name: "Purdue", logo: PurdueLogo },
+    { name: "Indiana", logo: IULogo },
+    { name: "IGW", logo: IGWLogo },
+  ];
 
   return (
     <section className="py-16 px-6 bg-background">
