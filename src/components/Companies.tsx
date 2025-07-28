@@ -26,7 +26,7 @@ const Companies = () => {
           <h2 className="text-3xl font-semibold mb-4 text-black">
             Trusted by Industry Leaders
           </h2>
-          <p className="text-muted-foreground">
+          <p className="text-gray-900">
             Collaborated with companies to deliver innovative embedded solutions
           </p>
         </div>
