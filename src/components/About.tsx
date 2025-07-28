@@ -194,7 +194,7 @@ const About = () => {
               <div className="grid grid-cols-3 gap-4 mt-6">
                 <div className="relative group overflow-hidden rounded-lg">
                   <img 
-                    src={i11} 
+                    src={i12} 
                     alt="Photography: Orange flowers" 
                     className="w-full h-45 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
@@ -202,7 +202,7 @@ const About = () => {
                 </div>
                 <div className="relative group overflow-hidden rounded-lg">
                   <img 
-                    src={i12} 
+                    src={i11} 
                     alt="Photography: Pine trees" 
                     className="w-full h-45 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
