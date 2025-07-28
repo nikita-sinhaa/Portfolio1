@@ -193,7 +193,7 @@ const About = () => {
               <p className="text-foreground/90 leading-relaxed mb-4">
                Words are where I go when silence feels full. Through poetry, I write what I can’t always say. It includes moments, memories, and musings that live between the lines.
               </p>
-              <div className="grid grid-cols-3 grid-rows-3 gap-4 mt-6">
+              <div className="grid grid-cols-3 gap-4 mt-6">
                 <div className="relative group overflow-hidden rounded-lg">
                   <img 
                     src={i11} 
