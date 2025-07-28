@@ -34,9 +34,7 @@ const Contact = () => {
                 </div>
               </div>
               <h3 className="text-xl font-semibold mb-4">Send Email</h3>
-              <p className="text-muted-foreground mb-6">
-                Drop me a line about your project ideas and requirements
-              </p>
+              
               <Button 
                 variant="glow" 
                 size="lg" 
