@@ -140,7 +140,7 @@ const About = () => {
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
-              </div>
+        
             <div className="relative group overflow-hidden rounded-lg">
                   <img 
                     src={i3} 
@@ -149,7 +149,7 @@ const About = () => {
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
-              </div><div className="relative group overflow-hidden rounded-lg">
+              <div className="relative group overflow-hidden rounded-lg">
                   <img 
                     src={i4} 
                     alt="Photography:i4" 
@@ -157,7 +157,7 @@ const About = () => {
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
-              </div> </div>
+              </div>
         <div className="relative group overflow-hidden rounded-lg">
                   <img 
                     src={i5} 
@@ -166,7 +166,7 @@ const About = () => {
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
-              </div>
+              
       <div className="relative group overflow-hidden rounded-lg">
                   <img 
                     src={i6} 
@@ -174,7 +174,7 @@ const About = () => {
                     className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </div>
+                
               </div>
     <div className="relative group overflow-hidden rounded-lg">
                   <img 
