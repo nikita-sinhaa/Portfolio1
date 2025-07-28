@@ -70,7 +70,7 @@ const About = () => {
           <Card className="bg-card/50 border-border hover:bg-card/80 transition-all duration-300 hover:shadow-card animate-scale-in stagger-2 overflow-hidden">
             <CardContent className="p-8">
               <h3 className="text-2xl font-semibold mb-6 text-gradient">When I'm Not in Firmware Mode</h3>
-              <h4 className="text-2xl font-semibold mb-6 text-gradient italic-heading"> Stories from My Perspective📸</h4>
+              <h4 className="text-2xl font-italics mb-6 text-gradient italic-heading"> Stories from My Perspective📸</h4>
               <p className="text-foreground/90 leading-relaxed mb-4">
                Photography is how I see things just quietly, carefully, and sometimes differently 👀📷. 
                 It’s not about taking photos. It’s about noticing what’s worth remembering ✨🖼️
