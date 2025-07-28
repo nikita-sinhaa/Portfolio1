@@ -19,8 +19,8 @@ const Navigation = () => {
   const navItems = [
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
-    { name: "Resume", href: "/resume.pdf", external: true },
-    { name: "GitHub", href: "https://github.com/nikita-sinha", external: true },
+    { name: "Resume", href: "https://drive.google.com/file/d/12PafDLQuNIJJTCDmBNTZnlXn5xv0uXKn/view?usp=drive_link", external: true },
+    { name: "GitHub", href: "https://github.com/nikita-sinhaa", external: true },
   ];
 
   const scrollToSection = (href: string) => {
