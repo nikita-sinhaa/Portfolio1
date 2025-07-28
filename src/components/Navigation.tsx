@@ -66,7 +66,7 @@ const Navigation = () => {
                   className="h-10 w-10 object-contain"
                 />
               </button>
-              <span className="text-sm font-medium text-[#0e1720] bg-blue-400/10 px-3 py-1 rounded-full border border-green-400/20">
+              <span className="text-sm font-medium text-[#8fe4ff] bg-blue-400/10 px-3 py-1 rounded-full border border-green-400/20">
                 Open to Work
               </span>
             </div>
