@@ -35,13 +35,13 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4">Send Email</h3>
               
-              <Button 
+              <Button   className="h-12 w-12 hover-glow animate-float stagger-2"
                 variant="glow" 
                 size="lg" 
                 onClick={handleSendEmail}
-                className="w-full hover-glow"
+               
               >
-                <Mail className="mr-2 h-5 w-5" />
+                <Mail className="h-6 w-6" />
                 Send Email
               </Button>
             </CardContent>
