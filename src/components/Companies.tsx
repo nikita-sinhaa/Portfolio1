@@ -23,7 +23,7 @@ const Companies = () => {
     <section className="py-16 px-6 bg-[#AEE4FF]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-3xl font-semibold mb-4 text-gradient">
+          <h2 className="text-3xl font-semibold mb-4 text-black">
             Trusted by Industry Leaders
           </h2>
           <p className="text-muted-foreground">
