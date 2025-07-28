@@ -142,7 +142,7 @@ const About = () => {
                 </div>
                                 <div className="relative group overflow-hidden rounded-lg">
                   <img 
-                    src={i3} 
+                    src={i9} 
                     alt="Photography: Orange flowers" 
                     className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
@@ -150,7 +150,7 @@ const About = () => {
                 </div>
                                 <div className="relative group overflow-hidden rounded-lg">
                   <img 
-                    src={i4} 
+                    src={i3} 
                     alt="Photography: Orange flowers" 
                     className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
@@ -166,7 +166,7 @@ const About = () => {
                 </div>
                                 <div className="relative group overflow-hidden rounded-lg">
                   <img 
-                    src={i6} 
+                    src={i7} 
                     alt="Photography: Orange flowers" 
                     className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
@@ -174,7 +174,7 @@ const About = () => {
                 </div>
                                 <div className="relative group overflow-hidden rounded-lg">
                   <img 
-                    src={i7} 
+                    src={i6} 
                     alt="Photography: Orange flowers" 
                     className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
