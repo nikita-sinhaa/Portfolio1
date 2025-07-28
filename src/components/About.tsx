@@ -198,7 +198,7 @@ const About = () => {
                   <img 
                     src={i11} 
                     alt="Photography: Orange flowers" 
-                    className="w-full h-50 object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="w-full h-45 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
@@ -206,7 +206,7 @@ const About = () => {
                   <img 
                     src={i12} 
                     alt="Photography: Pine trees" 
-                    className="w-full h-50 object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="w-full h-45 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
@@ -214,7 +214,7 @@ const About = () => {
                   <img 
                     src={i13} 
                     alt="Photography: Ocean wave" 
-                    className="w-full h-50 object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="w-full h-45 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
