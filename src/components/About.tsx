@@ -12,9 +12,9 @@ import i6 from "@/assets/6.jpg";
 import i7 from "@/assets/7.jpg";
 import i8 from "@/assets/8.jpg";
 import i9 from "@/assets/9.jpg";
-import i11 from "@/assets/9.jpg";
-import i12 from "@/assets/9.jpg";
-import i13 from "@/assets/9.jpg";
+import i11 from "@/assets/11.jpg";
+import i12 from "@/assets/12.jpg";
+import i13 from "@/assets/13.jpg";
 
 const About = () => {
   return (
