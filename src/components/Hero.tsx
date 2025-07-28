@@ -30,11 +30,7 @@ const Hero = () => {
            Embedded Engineer who is turning real time challenges into real world solutions
           </p>
           
-          <a
-  href="https://drive.google.com/file/d/12PafDLQuNIJJTCDmBNTZnlXn5xv0uXKn/view"
-  target="_blank"
-  rel="noopener noreferrer"
->
+   <a href="https://drive.google.com/file/d/12PafDLQuNIJJTCDmBNTZnlXn5xv0uXKn/view?usp=drive_link" download>
   <Button variant="glow" size="lg" className="group hover-glow animate-glow-pulse">
     <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
     Download Resume
