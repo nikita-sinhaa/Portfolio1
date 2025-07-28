@@ -33,15 +33,26 @@ const About = () => {
               <CardContent className="p-8 flex flex-col justify-center">
                 <h3 className="text-2xl font-semibold mb-6 text-gradient">The Beginning</h3>
                 <p className="text-foreground/90 leading-relaxed mb-4">
-                  My journey began with a fascination for how things work at their core - from dismantling 
-                  toys as a child to designing complex embedded systems today. That curiosity never left me. 
-                  While other kids were playing video games, I was taking apart remote controls, trying to 
-                  understand the magic behind the blinking LEDs.
+                  From the soft hum of circuit boards to the click of relays, my childhood was a symphony of machines.
+                  Surrounded by mechanical and electrical engineers, I was sketching circuits and dismantling toys long
+                  before algebra made its entrance. By middle school, my path was crystal clear—I was going to be an 
+                  engineer, not out of duty, but out of instinct.
+                </p>
+                <p className="text-foreground/90 leading-relaxed mb-4">
+                  At Manipal Institute of Technology, I found my academic home in Instrumentation & Control Engineering
+                  —a discipline where mechanical intuition meets electrical finesse. It was here that I fell headfirst 
+                  into the beauty of process control, PLCs, and signal processing. Not just theory, but the art of 
+                  command and feedback, of stability and precision.
+                </p>
+                <p className="text-foreground/90 leading-relaxed mb-4">
+                  My professional chapters at Kirloskar and Kohler turned learning into doing. I wasn’t just analyzing 
+                  control loops but I was shaping them. In factories buzzing with legacy systems and next-gen prototypes,
+                  I discovered the unsung hero behind the scenes: firmware. That moment changed everything.
                 </p>
                 <p className="text-foreground/90 leading-relaxed">
-                  This early exploration taught me that technology isn't just about circuits and code - 
-                  it's about understanding the 'why' behind every decision, every line of code, every 
-                  component placement.
+                 Today, I build real-time systems that don’t just exist—they listen, think, and respond. Whether it’s RTOS,
+                  signal filtering, or DMA-driven data paths, I write firmware that talks straight to the metal—clean, efficient,
+                  and purpose-built. This is more than code. This is control.
                 </p>
               </CardContent>
             </div>
