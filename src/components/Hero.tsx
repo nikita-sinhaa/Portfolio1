@@ -47,25 +47,19 @@ const Hero = () => {
               </Button>
             </a>
 
-            <Button
-              variant="tech"
-              size="lg"
-              className="hover-scale"
-              onClick={handleContactClick}
-            >
-              <Mail className="mr-2 h-5 w-5" />
-              Get In Touch
-            </Button>
+            <a
+  href="https://calendly.com/nikita-sinhaa"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button variant="tech" size="lg" className="hover-scale">
+    <Mail className="mr-2 h-5 w-5" />
+    Get In Touch
+  </Button>
+</a>
           </div>
 
-          {/* Contact Info */}
-          {showContact && (
-            <div className="pt-4 text-lg text-foreground font-medium animate-fade-in space-y-2">
-              <p>📞 Phone: <span className="text-primary font-semibold">317-982-4290</span></p>
-              <p>📧 Email: <span className="text-primary font-semibold">nikita.sinhaa@gmail.com</span></p>
-              <p>📅 Schedule a call: <a href="https://calendly.com/nikita-sinhaa" target="_blank" rel="noopener noreferrer" className="underline text-blue-600">calendly.com/nikita-sinhaa</a></p>
-            </div>
-          )}
+          
 
           {/* Social Icons */}
           <div className="flex justify-center gap-6 pt-8 animate-fade-in stagger-4">
