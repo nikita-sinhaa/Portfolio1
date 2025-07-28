@@ -39,7 +39,7 @@ const About = () => {
                 </p>
                 <p className="text-foreground/90 leading-relaxed mb-4">
                  At Manipal, I dove into Instrumentation & Control Engineering—where code meets 
-                  control. Internships at Kirloskar and Kohler turned curiosity into craftsmanship. 
+                control. Internships at Kirloskar and Kohler turned curiosity into craftsmanship. 
                   That’s where I discovered firmware: the language machines truly understand.
                 </p>
                 <p className="text-foreground/90 leading-relaxed">
@@ -52,12 +52,19 @@ const About = () => {
 
           <Card className="bg-card/50 border-border hover:bg-card/80 transition-all duration-300 hover:shadow-card animate-scale-in stagger-1">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-semibold mb-6 text-gradient">Beyond the Code</h3>
-              <p className="text-foreground/90 leading-relaxed mb-4">
-                While firmware development is my professional forte, I believe in the power of 
-                interdisciplinary thinking. I'm a storyteller who captures moments through photography, 
-                finding that the patience required for the perfect shot mirrors the persistence needed 
-                for debugging complex embedded systems.
+              <h3 className="text-2xl font-semibold mb-6 text-gradient"> Beyond the Code: My Approach to Problem-Solving</h3>
+              <p className="text-foreground/90 font-semibold leading-relaxed mb-4"> 🔍 Diagnose Before Debugging</p>
+               <p className="text-foreground/90 leading-relaxed mb-4"> I don't jump to fixes but I step back to understand root causes and system behavior.</p>  
+              <p className="text-foreground/90 font-semibold leading-relaxed mb-4">🧠 Systems Thinking</p>
+<p className="text-foreground/90 leading-relaxed mb-4">I break problems into signals, states, and interfaces—treating hardware and software as a unified whole.</p>
+<p className="text-foreground/90 font-semibold leading-relaxed mb-4">📐 Precision + Patience</p>
+<p className="text-foreground/90 leading-relaxed mb-4">Firmware demands discipline. I trace bugs down to the bit level with calm focus.</p>
+<p className="text-foreground/90 font-semibold leading-relaxed mb-4">🔄 Iterative Mindset</p>
+<p className="text-foreground/90 leading-relaxed mb-4">Every failure is a signal. I refine, retest, and learn with every cycle.</p>
+<p className="text-foreground/90 font-semibold leading-relaxed mb-4">🛠️ Tools Are My Allies</p>
+<p className="text-foreground/90 leading-relaxed mb-4">Oscilloscopes, debuggers, logs—I use the right tools to make invisible problems visible.</p>
+<p className="text-foreground/90 font-semibold leading-relaxed mb-4">💬 Code as Conversation</p>
+<p className="text-foreground/90 leading-relaxed mb-4">I treat embedded code as a dialogue with hardware—and I listen carefully.
               </p>
               <p className="text-foreground/90 leading-relaxed">
                 Music flows through my daily routine - whether it's finding rhythm in algorithms or 
