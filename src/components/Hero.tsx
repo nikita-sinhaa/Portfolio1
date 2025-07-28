@@ -24,11 +24,10 @@ const Hero = () => {
             Nikita Sinha
           </h1>
           <h2 className="text-2xl md:text-3xl text-muted-foreground font-light animate-fade-in stagger-1">
-            Embedded Systems Engineer
+            Embedded Engineer
           </h2>
           <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto leading-relaxed animate-fade-in stagger-2">
-            Designing intelligent embedded solutions for IoT, automation, and next-generation devices. 
-            Specialized in firmware development, real-time systems, and hardware-software integration.
+           Embedded Engineer who is turning real time challenges into real world solutions
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 animate-slide-up stagger-3">
