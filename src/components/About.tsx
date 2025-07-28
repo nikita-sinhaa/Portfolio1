@@ -33,26 +33,18 @@ const About = () => {
               <CardContent className="p-8 flex flex-col justify-center">
                 <h3 className="text-2xl font-semibold mb-6 text-gradient">The Beginning</h3>
                 <p className="text-foreground/90 leading-relaxed mb-4">
-                  From the soft hum of circuit boards to the click of relays, my childhood was a symphony of machines.
-                  Surrounded by mechanical and electrical engineers, I was sketching circuits and dismantling toys long
-                  before algebra made its entrance. By middle school, my path was crystal clear—I was going to be an 
-                  engineer, not out of duty, but out of instinct.
+                  Engineer by instinct, embedded developer by choice. 
+                  I grew up around machines, sketching circuits before
+                  I could spell “voltage.”
                 </p>
                 <p className="text-foreground/90 leading-relaxed mb-4">
-                  At Manipal Institute of Technology, I found my academic home in Instrumentation & Control Engineering
-                  —a discipline where mechanical intuition meets electrical finesse. It was here that I fell headfirst 
-                  into the beauty of process control, PLCs, and signal processing. Not just theory, but the art of 
-                  command and feedback, of stability and precision.
-                </p>
-                <p className="text-foreground/90 leading-relaxed mb-4">
-                  My professional chapters at Kirloskar and Kohler turned learning into doing. I wasn’t just analyzing 
-                  control loops but I was shaping them. In factories buzzing with legacy systems and next-gen prototypes,
-                  I discovered the unsung hero behind the scenes: firmware. That moment changed everything.
+                 At Manipal, I dove into Instrumentation & Control Engineering—where code meets 
+                  control. Internships at Kirloskar and Kohler turned curiosity into craftsmanship. 
+                  That’s where I discovered firmware: the language machines truly understand.
                 </p>
                 <p className="text-foreground/90 leading-relaxed">
-                 Today, I build real-time systems that don’t just exist—they listen, think, and respond. Whether it’s RTOS,
-                  signal filtering, or DMA-driven data paths, I write firmware that talks straight to the metal—clean, efficient,
-                  and purpose-built. This is more than code. This is control.
+                 Now, I build real-time systems that listen, think, and act. From RTOS to low-level 
+                  drivers, I write firmware with precision, not fluff.
                 </p>
               </CardContent>
             </div>
