@@ -9,34 +9,34 @@ import projectWearable from "@/assets/project-wearable.jpg";
 const Projects = () => {
   const projects = [
     {
-      title: "Smart IoT Sensor Network",
-      description: "Developed a mesh network of environmental sensors using ESP32 microcontrollers with LoRaWAN connectivity for smart city applications.",
+      title: "Real-Time Object Detection Acceleration Using Transfer Learning and FPGA",
+      description: "This project showcases a hybrid AI + FPGA system that accelerates object detection post-processing in real-time",
       image: projectIot,
       technologies: ["ESP32", "LoRaWAN", "FreeRTOS", "C++", "MQTT", "Solar Power"],
-      github: "#",
+      github: "https://github.com/nikita-sinhaa/Real-Time-Object-Detection-Acceleration-Using-Transfer-Learning",
      
       highlights: [
-        "Ultra-low power design with 2+ year battery life",
-        "Mesh networking with 1km+ range",
-        "Real-time environmental monitoring"
+        "⚡ YOLOv5s model in Python (PyTorch) for lightweight object detection",
+        "⚡ Bounding box filtering and Non-Maximum Suppression (NMS) simulated in VHDL hardware",
+        "🚀 Achieves ~30 FPS inference with simulated FPGA co-processing"
       ]
     },
     {
-      title: "Industrial Automation Controller",
-      description: "Designed and implemented a real-time control system for manufacturing equipment with safety-critical requirements and HMI interface.",
-      image: projectAutomation,
+      title: " Smart Market AI",
+      description: "SmartMarketAI is a complete machine learning pipeline and interactive dashboard that simulates a marketing platform's core decision-making intelligence.",
       technologies: ["STM32", "Safety PLC", "CAN Bus", "IEC 61508", "C", "Qt"],
-      github: "#",
+      github: "https://github.com/nikita-sinhaa/Smart-Market-AI",
       
       highlights: [
-        "SIL 2 safety certification compliance",
-        "Sub-millisecond response times",
-        "Redundant fail-safe mechanisms"
+       "🎯 Conversion Prediction using Gradient Boosting",
+        "💸 Dynamic Bid Price Optimization via Regression",
+"🕵️‍♀️ Fraud Detection via both Isolation Forest and GNN (Graph Neural Network)",
+"📊 Streamlit-based UI for campaign simulation and experimentation"
       ]
     },
     {
-      title: "Wearable Health Monitor",
-      description: "Created a compact wearable device for continuous health monitoring with ML-powered anomaly detection and smartphone connectivity.",
+      title: "Speech-Enhancement-for-Far-field-Voice-Assistants",
+      description: "Design a speech enhancement pipeline using beamforming and noise reduction to improve far-field audio captured by virtual microphones.",
       image: projectWearable,
       technologies: ["nRF52", "Zephyr OS", "BLE", "TensorFlow Lite", "Python", "Flutter"],
       github: "#",
