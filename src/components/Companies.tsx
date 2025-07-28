@@ -1,13 +1,13 @@
 const Companies = () => {
   const companies = [
-    { name: "Microsoft", logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" },
-    { name: "Google", logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" },
-    { name: "Amazon", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" },
-    { name: "Tesla", logo: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tesla_T_symbol.svg" },
-    { name: "Intel", logo: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Intel_logo_%282006-2020%29.svg" },
-    { name: "Apple", logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" },
-    { name: "NVIDIA", logo: "https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg" },
-    { name: "IBM", logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" }
+    { name: "keelworks", logo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.keelworks.org%2Fabout&psig=AOvVaw0tvElO8g39eYESJnYnizZp&ust=1753805296792000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPifhIL4344DFQAAAAAdAAAAABAE" },
+    { name: "Kohler", logo: "https://en.m.wikipedia.org/wiki/File:Kohler_logo.svg" },
+    { name: "Kirloskar", logo: "https://commons.wikimedia.org/wiki/File:Kirloskar_Group_Logo.svg" },
+    { name: "IITD", logo: "https://sa.wikipedia.org/wiki/%E0%A4%B8%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%BF%E0%A4%95%E0%A4%BE:IIT_Delhi_logo.png" },
+    { name: "IITK", logo: "https://sa.wikipedia.org/wiki/%E0%A4%B8%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%BF%E0%A4%95%E0%A4%BE:IIT_Kanpur_Logo.png" },
+    { name: "Purdue", logo: "https://commons.wikimedia.org/wiki/File:Purdue_Boilermakers_logo.svg" },
+    { name: "Indiana ", logo: "https://commons.wikimedia.org/wiki/File:Indiana_Hoosiers_logo.svg" },
+    { name: "IGW", logo: "https://commons.wikimedia.org/wiki/File:IGW-Logo.svg" }
   ];
 
   return (
