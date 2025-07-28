@@ -1,14 +1,14 @@
 const Companies = () => {
-  const companies = [
-    { name: "keelworks", logo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.keelworks.org%2Fabout&psig=AOvVaw0tvElO8g39eYESJnYnizZp&ust=1753805296792000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPifhIL4344DFQAAAAAdAAAAABAE" },
-    { name: "Kohler", logo: "https://en.m.wikipedia.org/wiki/File:Kohler_logo.svg" },
-    { name: "Kirloskar", logo: "https://commons.wikimedia.org/wiki/File:Kirloskar_Group_Logo.svg" },
-    { name: "IITD", logo: "https://en.wikipedia.org/wiki/IIT_Delhi#/media/File:Indian_Institute_of_Technology_Delhi_Logo.svg" },
-    { name: "IITK", logo: "https://en.wikipedia.org/wiki/IIT_Kanpur#/media/File:IIT_Kanpur_Logo.svg" },
-    { name: "Purdue", logo: "https://commons.wikimedia.org/wiki/File:Purdue_Boilermakers_logo.svg" },
-    { name: "Indiana ", logo: "https://commons.wikimedia.org/wiki/File:Indiana_Hoosiers_logo.svg" },
-    { name: "IGW", logo: "https://commons.wikimedia.org/wiki/File:IGW-Logo.svg" }
-  ];
+ const companies = [
+  { name: "Keelworks", logo: "https://www.keelworks.org/assets/logo.svg" },
+  { name: "Kohler", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Kohler_logo.svg" },
+  { name: "Kirloskar", logo: "https://upload.wikimedia.org/wikipedia/en/4/4a/Kirloskar_Group_Logo.svg" },
+  { name: "IITD", logo: "https://upload.wikimedia.org/wikipedia/en/2/25/IIT_Delhi_Logo.svg" },
+  { name: "IITK", logo: "https://upload.wikimedia.org/wikipedia/en/5/5b/IIT_Kanpur_Logo.svg" },
+  { name: "Purdue", logo: "https://upload.wikimedia.org/wikipedia/en/1/1e/Purdue_Boilermakers_logo.svg" },
+  { name: "Indiana", logo: "https://upload.wikimedia.org/wikipedia/en/9/9f/Indiana_Hoosiers_logo.svg" },
+  { name: "IGW", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d0/IGW-Logo.svg" }
+];
 
   return (
     <section className="py-16 px-6 bg-background">
@@ -18,7 +18,7 @@ const Companies = () => {
             Trusted by Industry Leaders
           </h2>
           <p className="text-muted-foreground">
-            Collaborated with leading companies to deliver innovative embedded solutions
+            Collaborated with companies to deliver innovative embedded solutions
           </p>
         </div>
 
