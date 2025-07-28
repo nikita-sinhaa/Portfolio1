@@ -30,11 +30,16 @@ const Hero = () => {
            Embedded Engineer who is turning real time challenges into real world solutions
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 animate-slide-up stagger-3">
-            <Button variant="glow" size="lg" className="group hover-glow animate-glow-pulse">
-              <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
-              Download Resume
-            </Button>
+          <a
+  href="https://drive.google.com/file/d/12PafDLQuNIJJTCDmBNTZnlXn5xv0uXKn/view"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button variant="glow" size="lg" className="group hover-glow animate-glow-pulse">
+    <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
+    Download Resume
+  </Button>
+</a
             <Button variant="tech" size="lg" className="hover-scale">
               <Mail className="mr-2 h-5 w-5" />
               Get In Touch
