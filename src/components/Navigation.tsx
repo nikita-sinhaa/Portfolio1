@@ -61,12 +61,12 @@ const Navigation = () => {
                 className="hover:scale-105 transition-transform"
               >
                 <img 
-                  src="/lovable-uploads/6c2ec6ba-7d74-4571-9c3b-ca94925e9e64.png" 
+                  src="src/assets/Adobe Express - file (1).png" 
                   alt="Nikita Sinha Logo" 
                   className="h-10 w-10 object-contain"
                 />
               </button>
-              <span className="text-sm font-medium text-green-400 bg-green-400/10 px-3 py-1 rounded-full border border-green-400/20">
+              <span className="text-sm font-medium text-blue-400 bg-blue-400/10 px-3 py-1 rounded-full border border-green-400/20">
                 Open to Work
               </span>
             </div>
