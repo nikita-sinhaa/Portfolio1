@@ -21,9 +21,7 @@ const About = () => {
     <section id="about" className="py-20 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl font-bold mb-4 text-gradient">
-            BEYOND ENGINEERING <span class="text-white-500">WHO IS NIKITA? </span>
-          </h2>
+         <h2 class="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text inline-block"> BEYOND ENGINEERING <span class="text-white">WHO IS NIKITA? </span> </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in stagger-1">
             Embedded Engineer sensor enthusiast, and a proud process control fanatic. Storyteller in code and beyond. I build real time systems that think fast and run clean. Outside the lab, you’ll find me writing, exploring new places, cooking something spicy, or clicking photographs of the most random building around.  
             technology with creativity, innovation, and human connection.
