@@ -14,7 +14,7 @@ const Projects = () => {
       image: projectIot,
       technologies: ["ESP32", "LoRaWAN", "FreeRTOS", "C++", "MQTT", "Solar Power"],
       github: "#",
-      demo: "#",
+     
       highlights: [
         "Ultra-low power design with 2+ year battery life",
         "Mesh networking with 1km+ range",
@@ -27,7 +27,7 @@ const Projects = () => {
       image: projectAutomation,
       technologies: ["STM32", "Safety PLC", "CAN Bus", "IEC 61508", "C", "Qt"],
       github: "#",
-      demo: "#",
+      
       highlights: [
         "SIL 2 safety certification compliance",
         "Sub-millisecond response times",
@@ -40,7 +40,7 @@ const Projects = () => {
       image: projectWearable,
       technologies: ["nRF52", "Zephyr OS", "BLE", "TensorFlow Lite", "Python", "Flutter"],
       github: "#",
-      demo: "#",
+      
       highlights: [
         "7-day battery life with continuous monitoring",
         "On-device ML inference",
