@@ -12,6 +12,9 @@ import i6 from "@/assets/6.jpg";
 import i7 from "@/assets/7.jpg";
 import i8 from "@/assets/8.jpg";
 import i9 from "@/assets/9.jpg";
+import i11 from "@/assets/9.jpg";
+import i12 from "@/assets/9.jpg";
+import i13 from "@/assets/9.jpg";
 
 const About = () => {
   return (
@@ -181,12 +184,46 @@ const About = () => {
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
               </div>
+            </CardContent>
+          </Card>
+
+         <Card className="bg-card/50 border-border hover:bg-card/80 transition-all duration-300 hover:shadow-card animate-scale-in stagger-2 overflow-hidden">
+            <CardContent className="p-8">
+              <h4 className="text-2xl font-italics mb-6 text-gradient italic-heading"> Stories from My Pen✍️</h4>
+              <p className="text-foreground/90 leading-relaxed mb-4">
+               Words are where I go when silence feels full. Through poetry, I write what I can’t always say. It includes moments, memories, and musings that live between the lines.
+              </p>
+              <div className="grid grid-cols-3 grid-rows-3 gap-4 mt-6">
+                <div className="relative group overflow-hidden rounded-lg">
+                  <img 
+                    src={i11} 
+                    alt="Photography: Orange flowers" 
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+                <div className="relative group overflow-hidden rounded-lg">
+                  <img 
+                    src={i12} 
+                    alt="Photography: Pine trees" 
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+                <div className="relative group overflow-hidden rounded-lg">
+                  <img 
+                    src={i13} 
+                    alt="Photography: Ocean wave" 
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+              </div>
               <p className="text-sm text-muted-foreground text-center mt-3">
                 Capturing moments through photography and expressing emotions through poetry
               </p>
             </CardContent>
           </Card>
-
           
         </div>
       </div>
