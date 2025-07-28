@@ -99,7 +99,7 @@ const About = () => {
                Photography is how I see things just quietly, carefully, and sometimes differently 👀📷. 
                 It’s not about taking photos. It’s about noticing what’s worth remembering ✨🖼️
               </p>
-              <div className="grid grid-cols-3 gap-4 mt-6">
+              <div className="grid grid-cols-3 grid-rows-3 gap-4 mt-6">
                 <div className="relative group overflow-hidden rounded-lg">
                   <img 
                     src={photographyFlowers} 
