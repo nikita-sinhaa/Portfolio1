@@ -1,13 +1,13 @@
 const Companies = () => {
  const companies = [
-  { name: "Keelworks", logo: "./assets/KeelWorks.png" },
-  { name: "Kohler", logo: "./assets/Kohler_logo.svg.png"},
-  { name: "Kirloskar", logo: "./assets/Kirloskar_Group_Logo.svg.png" },
-  { name: "IITD", logo: "./assets/Indian_Institute_of_Technology_Delhi_Logo.svg.png" },
-  { name: "IITK", logo: "./assets/IIT_Kanpur_Logo.svg.png" },
-  { name: "Purdue", logo: "./assets/Purdue_University_seal.svg.png" },
-  { name: "Indiana", logo: "./assets/Indiana_University_logotype.svg.png" },
-  { name: "IGW", logo:"./assets/IGW_Logo.png" }
+  { name: "Keelworks", logo: "./assets/KeelWorks.svg" },
+  { name: "Kohler", logo: "./assets/Kohler.svg"},
+  { name: "Kirloskar", logo: "./assets/Kirloskar.svg" },
+  { name: "IITD", logo: "./assets/IITD.svg" },
+  { name: "IITK", logo: "./assets/IITK.svg" },
+  { name: "Purdue", logo: "./assets/Purdue.svg" },
+  { name: "Indiana", logo: "./assets/IU.svg" },
+  { name: "IGW", logo:"./assets/IGW.svg" }
 ];
 
   return (
