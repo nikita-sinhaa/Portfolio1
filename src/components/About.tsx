@@ -132,8 +132,7 @@ const About = () => {
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
-              </div>
-              <div className="relative group overflow-hidden rounded-lg">
+             <div className="relative group overflow-hidden rounded-lg">
                   <img 
                     src={i2} 
                     alt="Photography: i2" 
@@ -158,7 +157,7 @@ const About = () => {
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
-              </div>
+              </div> </div>
         <div className="relative group overflow-hidden rounded-lg">
                   <img 
                     src={i5} 
