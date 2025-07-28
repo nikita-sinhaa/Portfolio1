@@ -12,11 +12,11 @@ const Hero = () => {
       >
         <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" />
       </div>
-      
+
       {/* Glow Effects */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-glow opacity-30 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-gradient-glow opacity-20 rounded-full blur-3xl" />
-      
+
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <div className="space-y-6">
@@ -27,25 +27,29 @@ const Hero = () => {
             Embedded Engineer
           </h2>
           <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto leading-relaxed animate-fade-in stagger-2">
-           Embedded Engineer who is turning real time challenges into real world solutions
+            Embedded Engineer who is turning real-time challenges into real-world solutions
           </p>
-          
-   <a
-  href="https://drive.google.com/file/d/12PafDLQuNIJJTCDmBNTZnlXn5xv0uXKn/view?usp=drive_link"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <Button variant="glow" size="lg" className="group hover-glow animate-glow-pulse">
-    <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
-    Download Resume
-  </Button>
-</a>
+
+          {/* Resume + Contact Buttons */}
+          <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in stagger-3">
+            <a
+              href="https://drive.google.com/file/d/12PafDLQuNIJJTCDmBNTZnlXn5xv0uXKn/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="glow" size="lg" className="group hover-glow animate-glow-pulse">
+                <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
+                Download Resume
+              </Button>
+            </a>
+
             <Button variant="tech" size="lg" className="hover-scale">
               <Mail className="mr-2 h-5 w-5" />
               Get In Touch
             </Button>
           </div>
-          
+
+          {/* Social Buttons */}
           <div className="flex justify-center gap-6 pt-8 animate-fade-in stagger-4">
             <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float">
               <Github className="h-6 w-6" />
@@ -57,8 +61,9 @@ const Hero = () => {
               <Mail className="h-6 w-6" />
             </Button>
           </div>
-        
-      
+        </div>
+      </div>
+
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-1 h-16 bg-gradient-primary rounded-full opacity-60" />
