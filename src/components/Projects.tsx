@@ -39,7 +39,7 @@ const Projects = () => {
       description: "Design a speech enhancement pipeline using beamforming and noise reduction to improve far-field audio captured by virtual microphones.",
       image: projectWearable,
       technologies: ["nRF52", "Zephyr OS", "BLE", "TensorFlow Lite", "Python", "Flutter"],
-      github: "#",
+      github: "https://github.com/nikita-sinhaa/Speech-Enhancement-for-Far-field-Voice-Assistants",
       
       highlights: [
         "7-day battery life with continuous monitoring",
