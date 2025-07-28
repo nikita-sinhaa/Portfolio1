@@ -4,32 +4,31 @@ import { Cpu, Zap, Cog, Shield } from "lucide-react";
 
 const Expertise = () => {
   const highlights = [
-    {
+     {
+      icon: <Cog className="h-6 w-6" />,
+      title: " AI, Machine Learning & Software Development",
+      description: "Python, C++, #C, MatLab, VHDL & VeriLog"
+    },{
       icon: <Cpu className="h-6 w-6" />,
-      title: "Microcontroller Expert",
-      description: "ARM Cortex-M, ESP32, STM32, and Arduino platforms"
+      title: "Embedded Systems and Microcontrollers ",
+      description: "STM32, ESP32, ARM, ZigBee, Kiel, UEFI/BIOS development and Raspberry Pi platforms"
     },
     {
       icon: <Zap className="h-6 w-6" />,
       title: "Real-time Systems",
-      description: "RTOS, interrupt handling, and time-critical applications"
+      description: "RTOS, BareMetal,  interrupt handling, and time-critical applications"
     },
-    {
-      icon: <Cog className="h-6 w-6" />,
-      title: "Hardware Integration",
-      description: "PCB design, sensor fusion, and communication protocols"
-    },
+   
     {
       icon: <Shield className="h-6 w-6" />,
-      title: "Security & Safety",
-      description: "Secure boot, encryption, and safety-critical systems"
+      title: "Signal Processing & FPGA",
+      description: "Vivado, Xilinx ZCU102, Xilinx Pynq, FFT, UART & JTAGs "
     }
   ];
 
   const technologies = [
-    "C/C++", "Python", "Rust", "ARM Assembly", "FreeRTOS", "Zephyr OS",
-    "I2C", "SPI", "UART", "CAN Bus", "Ethernet", "WiFi", "Bluetooth",
-    "KiCad", "Altium Designer", "MATLAB/Simulink", "Git", "JIRA", "Docker"
+    "C/C++", "Python" , "ARM ", "FreeRTOS", "VHDL", "#C", "Raspberry Pi", "BareMetal", " JTAGs" , "FPGA",
+    "I2C", "SPI", "UART", "Ethernet", "WiFi", "Bluetooth", "MATLAB/Simulink", "Xilinx ZCU102", "ZigBee", "PLC"
   ];
 
   return (
@@ -40,8 +39,9 @@ const Expertise = () => {
             Technical Expertise
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in stagger-1">
-            8+ years of experience delivering innovative embedded solutions across 
-            automotive, IoT, and industrial automation sectors.
+           2+ years of experience engineering embedded solutions for manufacturing environments—ranging from sensor
+            integration on STM32 to FPGA-accelerated vision systems and PLC-grade control applications, 
+            with a strong focus on reliability, timing, and performance.
           </p>
         </div>
 
