@@ -132,58 +132,6 @@ const About = () => {
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
-             <div className="relative group overflow-hidden rounded-lg">
-                  <img 
-                    src={i2} 
-                    alt="Photography: i2" 
-                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </div>
-        
-            <div className="relative group overflow-hidden rounded-lg">
-                  <img 
-                    src={i3} 
-                    alt="Photography: i3" 
-                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </div>
-              <div className="relative group overflow-hidden rounded-lg">
-                  <img 
-                    src={i4} 
-                    alt="Photography:i4" 
-                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </div>
-              </div>
-        <div className="relative group overflow-hidden rounded-lg">
-                  <img 
-                    src={i5} 
-                    alt="Photography: i5" 
-                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </div>
-              
-      <div className="relative group overflow-hidden rounded-lg">
-                  <img 
-                    src={i6} 
-                    alt="Photography:i6" 
-                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                
-              </div>
-    <div className="relative group overflow-hidden rounded-lg">
-                  <img 
-                    src={i7} 
-                    alt="Photography: i7" 
-                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </div>
               </div>
               <p className="text-sm text-muted-foreground text-center mt-3">
                 Capturing moments through photography and expressing emotions through poetry
