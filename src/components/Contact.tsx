@@ -34,13 +34,16 @@ const Contact = () => {
                 </div>
               </div>
               <h3 className="text-xl font-semibold mb-4">Send Email</h3>
-              
-              <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=nikita.sinhaa@gmail.com&su=Let's%20Connect&body=Hi%20Nikita,"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float stagger-2">
+               <Button 
+                variant="tech" 
+                size="lg" 
+                onClick={handleScheduleCall}
+                className="w-full hover-scale"
+              >
+                <Calendar className="mr-2 h-5 w-5" />
+                Schedule Call
+              </Button>
+    <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float stagger-2">
     <Mail className="h-6 w-6" />
   </Button>
 </a>
