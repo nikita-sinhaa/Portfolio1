@@ -112,12 +112,12 @@ const About = () => {
               <CardContent className="p-8 flex flex-col justify-center">
                 <h3 className="text-2xl font-semibold mb-6 text-gradient">My Goals🚀 </h3>
                 <p className="text-foreground/90 leading-relaxed mb-4">
-                  💼 Land my dream job where I could explore my knowledge to fullest.
-                  🧘‍♀️ Stay grounded and growing: physically stronger, mentally sharper.
-                  🛠 Build a real time system that genuinely helps people.
-                  🤝 Be part of impactful work at the intersection of humanity and technology.
-                  🌍 Travel the world’s national parks and collect stories from every corner.
-                  🏡 Build my parents’ dream home nestled in the quiet of the hills.
+                  💼 Land my dream job where I could explore my knowledge to fullest.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">🧘‍♀️ Stay grounded and growing: physically stronger, mentally sharper.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">🛠 Build a real time system that genuinely helps people.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">🤝 Be part of impactful work at the intersection of humanity and technology.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">🌍 Travel the world’s national parks and collect stories from every corner.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">🏡 Build my parents’ dream home nestled in the quiet of the hills.
                 </p>
               </CardContent>
               <div className="relative h-64 md:h-auto">
