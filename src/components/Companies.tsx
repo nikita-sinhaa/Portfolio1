@@ -1,13 +1,13 @@
 const Companies = () => {
  const companies = [
-  { name: "Keelworks", logo: "./assets/KeelWorks.svg" },
-  { name: "Kohler", logo: "./assets/Kohler.svg"},
-  { name: "Kirloskar", logo: "./assets/Kirloskar.svg" },
-  { name: "IITD", logo: "./assets/IITD.svg" },
-  { name: "IITK", logo: "./assets/IITK.svg" },
-  { name: "Purdue", logo: "./assets/Purdue.svg" },
-  { name: "Indiana", logo: "./assets/IU.svg" },
-  { name: "IGW", logo:"./assets/IGW.svg" }
+  { name: "Keelworks", logo: "@/assets/KeelWorks.svg" },
+  { name: "Kohler", logo: "@/assets/Kohler.svg"},
+  { name: "Kirloskar", logo: "@/assets/Kirloskar.svg" },
+  { name: "IITD", logo: "@/assets/IITD.svg" },
+  { name: "IITK", logo: "@/assets/IITK.svg" },
+  { name: "Purdue", logo: "@/assets/Purdue.svg" },
+  { name: "Indiana", logo: "@/assets/IU.svg" },
+  { name: "IGW", logo:"@/assets/IGW.svg" }
 ];
 
   return (
