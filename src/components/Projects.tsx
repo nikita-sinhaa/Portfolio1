@@ -24,6 +24,7 @@ const Projects = () => {
     {
       title: " Smart Market AI",
       description: "SmartMarketAI is a complete machine learning pipeline and interactive dashboard that simulates a marketing platform's core decision-making intelligence.",
+      image: projectAutomation,
       technologies: ["STM32", "Safety PLC", "CAN Bus", "IEC 61508", "C", "Qt"],
       github: "https://github.com/nikita-sinhaa/Smart-Market-AI",
       
@@ -42,9 +43,11 @@ const Projects = () => {
       github: "https://github.com/nikita-sinhaa/Speech-Enhancement-for-Far-field-Voice-Assistants",
       
       highlights: [
-        "7-day battery life with continuous monitoring",
-        "On-device ML inference",
-        "Clinical-grade sensor accuracy"
+        "🎙️ Beamforming for Directional Audio Focus",
+"🧠 Real-Time Noise Suppression using Spectral Subtraction",
+"🔊 Voice Activity Detection (VAD) for Accurate Speech Boundaries",
+"🧪 MATLAB + Python Simulation for Acoustic Modeling",
+"🛠️ Modular DSP Pipeline Architecture for Scalability"
       ]
     }
   ];
