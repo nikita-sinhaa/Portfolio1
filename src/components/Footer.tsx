@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-center space-y-4">
           <div className="flex items-center space-x-6">
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/12PafDLQuNIJJTCDmBNTZnlXn5xv0uXKn/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors"
@@ -16,7 +16,7 @@ const Footer = () => {
               <span>Resume</span>
             </a>
             <a
-              href="https://linkedin.com/in/nikita-sinha"
+              href="https://www.linkedin.com/in/nikita-sinhaa/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors"
@@ -25,7 +25,7 @@ const Footer = () => {
               <span>LinkedIn</span>
             </a>
             <a
-              href="https://github.com/nikita-sinha"
+              href="https://github.com/nikita-sinhaa"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors"
