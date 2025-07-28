@@ -107,13 +107,14 @@ const Projects = () => {
                   ))}
                 </div>
                 
-                <div className="flex gap-3 pt-4 animate-slide-up stagger-3">
-                  <Button variant="tech" size="sm" className="flex-1 hover-glow">
-                    <Github className="mr-2 h-4 w-4" />
-                    Code
-                  </Button>
-                  
-                </div>
+               <div className="flex gap-3 pt-4 animate-slide-up stagger-3">
+  <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex-1">
+    <Button variant="tech" size="sm" className="w-full hover-glow">
+      <Github className="mr-2 h-4 w-4" />
+      Code
+    </Button>
+  </a>
+</div>
               </CardContent>
             </Card>
           ))}
