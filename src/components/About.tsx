@@ -105,7 +105,7 @@ const About = () => {
           <Card className="bg-card/50 border-border hover:bg-card/80 transition-all duration-300 hover:shadow-card animate-scale-in stagger-2 overflow-hidden">
             <CardContent className="p-8">
               <h3 className="text-2xl font-semibold mb-6 text-gradient">Thing that Attracts Me </h3>
-              <h4 className="text-2xl font-italics mb-6 text-gradient italic-heading"> Stories from My Perspective📸</h4>
+              <h4 className="text-2xl font-italics mb-6 text-gradient italic-heading"> Stories from My Perspective</h4>
               <p className="text-foreground/90 leading-relaxed mb-4">
                Photography is how I see things just quietly, carefully, and sometimes differently 👀📷. 
                 It’s not about taking photos. It’s about noticing what’s worth remembering ✨🖼️
@@ -189,7 +189,7 @@ const About = () => {
 
          <Card className="bg-card/50 border-border hover:bg-card/80 transition-all duration-300 hover:shadow-card animate-scale-in stagger-2 overflow-hidden">
             <CardContent className="p-8">
-              <h4 className="text-2xl font-italics mb-6 text-gradient italic-heading"> Stories from My Pen✍️</h4>
+              <h4 className="text-2xl font-italics mb-6 text-gradient italic-heading"> Stories from My Pen</h4>
               <p className="text-foreground/90 leading-relaxed mb-4">
                Words are where I go when silence feels full. Through poetry, I write what I can’t always say. It includes moments, memories, and musings that live between the lines.
               </p>
@@ -198,7 +198,7 @@ const About = () => {
                   <img 
                     src={i11} 
                     alt="Photography: Orange flowers" 
-                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="w-full h-50 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
@@ -206,7 +206,7 @@ const About = () => {
                   <img 
                     src={i12} 
                     alt="Photography: Pine trees" 
-                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="w-full h-50 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
@@ -214,7 +214,7 @@ const About = () => {
                   <img 
                     src={i13} 
                     alt="Photography: Ocean wave" 
-                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="w-full h-50 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
