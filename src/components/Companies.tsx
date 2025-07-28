@@ -20,7 +20,7 @@ const Companies = () => {
   ];
 
   return (
-    <section className="py-16 px-6 bg-[#83a5c9]">
+    <section className="py-16 px-6 bg-[#AEE4FF]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-3xl font-semibold mb-4 text-gradient">
