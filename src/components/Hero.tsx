@@ -39,7 +39,7 @@ const Hero = () => {
     <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
     Download Resume
   </Button>
-</a
+</a>
             <Button variant="tech" size="lg" className="hover-scale">
               <Mail className="mr-2 h-5 w-5" />
               Get In Touch
