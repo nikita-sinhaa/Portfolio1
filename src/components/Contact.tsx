@@ -51,7 +51,7 @@ const Contact = () => {
             <CardContent className="p-8 text-center">
               <div className="flex justify-center mb-4">
                 <div className="p-3 bg-primary/20 rounded-lg text-primary animate-glow-pulse">
-                  <Calendar className="h-8 w-8" />
+                  <Calendar className="mr-2 h-5 w-5" />
                 </div>
               </div>
               <h3 className="text-xl font-semibold mb-4">Schedule Call</h3>
