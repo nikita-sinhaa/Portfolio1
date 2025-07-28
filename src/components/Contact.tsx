@@ -4,7 +4,7 @@ import { Mail, Calendar } from "lucide-react";
 
 const Contact = () => {
   const handleSendEmail = () => {
-    window.location.href = "mailto:nikitaa.sinhaa@gmail.com subject=Let's Work Together&body=Hi Nikita, I'd love to discuss a potential collaboration...";
+    window.location.href = "mailto:nikitaa.sinhaa@gmail.com?subject=Let's Work Together&body=Hi Nikita, I'd love to discuss a potential collaboration...";
   };
 
   const handleScheduleCall = () => {
