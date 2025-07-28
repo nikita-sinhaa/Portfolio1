@@ -109,10 +109,7 @@ const Projects = () => {
                     <Github className="mr-2 h-4 w-4" />
                     Code
                   </Button>
-                  <Button variant="glow" size="sm" className="flex-1 hover-scale">
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Demo
-                  </Button>
+                  
                 </div>
               </CardContent>
             </Card>
