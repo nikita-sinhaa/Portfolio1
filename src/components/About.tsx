@@ -4,6 +4,14 @@ import futureGoalsImage from "@/assets/future-goals.jpg";
 import photographyFlowers from "@/assets/photography-flowers.jpg";
 import photographyTrees from "@/assets/photography-trees.jpg";
 import photographyOcean from "@/assets/photography-ocean.jpg";
+import i2 from "@/assets/2.jpg";
+import i3 from "@/assets/3.jpg";
+import i4 from "@/assets/4.jpg";
+import i5 from "@/assets/5.jpg";
+import i6 from "@/assets/6.jpg";
+import i7 from "@/assets/7.jpg";
+import i8 from "@/assets/8.jpg";
+import i9 from "@/assets/9.jpg";
 
 const About = () => {
   return (
@@ -120,6 +128,59 @@ const About = () => {
                   <img 
                     src={photographyOcean} 
                     alt="Photography: Ocean wave" 
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+              </div>
+              <div className="relative group overflow-hidden rounded-lg">
+                  <img 
+                    src={i2} 
+                    alt="Photography: i2" 
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+              </div>
+            <div className="relative group overflow-hidden rounded-lg">
+                  <img 
+                    src={i3} 
+                    alt="Photography: i3" 
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+              </div><div className="relative group overflow-hidden rounded-lg">
+                  <img 
+                    src={i4} 
+                    alt="Photography:i4" 
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+              </div>
+        <div className="relative group overflow-hidden rounded-lg">
+                  <img 
+                    src={i5} 
+                    alt="Photography: i5" 
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+              </div>
+      <div className="relative group overflow-hidden rounded-lg">
+                  <img 
+                    src={i6} 
+                    alt="Photography:i6" 
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+              </div>
+    <div className="relative group overflow-hidden rounded-lg">
+                  <img 
+                    src={i7} 
+                    alt="Photography: i7" 
                     className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
