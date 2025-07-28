@@ -70,28 +70,17 @@ const About = () => {
           <Card className="bg-card/50 border-border hover:bg-card/80 transition-all duration-300 hover:shadow-card animate-scale-in stagger-2 overflow-hidden">
             <CardContent className="p-8">
               <h3 className="text-2xl font-semibold mb-6 text-gradient">When I'm Not in Firmware Mode</h3>
+              <h4 className="text-2xl font-semibold mb-6 text-gradient"> Stories from My Perspective📸</h4>
               <p className="text-foreground/90 leading-relaxed mb-4">
-                You'll find me exploring nature trails, where the complexity of ecosystems reminds me 
-                of the intricate systems I design. There's something profound about debugging code under 
-                the open sky or finding inspiration for efficient algorithms in the patterns of nature.
+               Photography is how I see things just quietly, carefully, and sometimes differently 👀📷. 
+                It’s not about taking photos. It’s about noticing what’s worth remembering ✨🖼️
               </p>
-              <p className="text-foreground/90 leading-relaxed mb-4">
-                I'm passionate about mentoring and believe in empowering the next generation of innovators. 
-                Teaching others has taught me that the best solutions often come from fresh perspectives 
-                and questioning established norms.
-              </p>
-              <p className="text-foreground/90 leading-relaxed mb-6">
-                My creative coding projects bridge the gap between art and technology - building interactive 
-                installations that respond to human emotion, or contributing to open-source communities 
-                that make technology more accessible to everyone.
-              </p>
-              
               <div className="grid grid-cols-3 gap-4 mt-6">
                 <div className="relative group overflow-hidden rounded-lg">
                   <img 
                     src={photographyFlowers} 
                     alt="Photography: Orange flowers" 
-                    className="w-full h-24 object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
@@ -99,7 +88,7 @@ const About = () => {
                   <img 
                     src={photographyTrees} 
                     alt="Photography: Pine trees" 
-                    className="w-full h-24 object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
@@ -107,7 +96,7 @@ const About = () => {
                   <img 
                     src={photographyOcean} 
                     alt="Photography: Ocean wave" 
-                    className="w-full h-24 object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
@@ -121,18 +110,14 @@ const About = () => {
           <Card className="bg-card/50 border-border hover:bg-card/80 transition-all duration-300 hover:shadow-card animate-scale-in stagger-3 overflow-hidden">
             <div className="grid md:grid-cols-2 gap-0">
               <CardContent className="p-8 flex flex-col justify-center">
-                <h3 className="text-2xl font-semibold mb-6 text-gradient">Future Goals</h3>
+                <h3 className="text-2xl font-semibold mb-6 text-gradient">My Goals🚀 </h3>
                 <p className="text-foreground/90 leading-relaxed mb-4">
-                  I envision a future where embedded systems seamlessly integrate with AI and quantum computing, 
-                  creating intelligent devices that understand and adapt to human needs. My goal is to pioneer 
-                  sustainable embedded solutions that not only perform efficiently but also contribute to a 
-                  greener planet.
-                </p>
-                <p className="text-foreground/90 leading-relaxed">
-                  Beyond technical achievements, I aim to establish mentorship programs that bridge the gap 
-                  between academia and industry, fostering innovation while ensuring technology serves humanity's 
-                  best interests. The future is about creating technology that feels less like technology 
-                  and more like magic.
+                  💼 Land my dream job where I could explore my knowledge to fullest.
+                  🧘‍♀️ Stay grounded and growing: physically stronger, mentally sharper.
+                  🛠 Build a real time system that genuinely helps people.
+                  🤝 Be part of impactful work at the intersection of humanity and technology.
+                  🌍 Travel the world’s national parks and collect stories from every corner.
+                  🏡 Build my parents’ dream home nestled in the quiet of the hills.
                 </p>
               </CardContent>
               <div className="relative h-64 md:h-auto">
