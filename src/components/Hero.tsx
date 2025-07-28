@@ -48,7 +48,7 @@ const Hero = () => {
             </a>
 
             <a
-  href="https://calendly.com/nikita-sinhaa"
+  href="ttps://calendly.com/nikitaa-sinhaa"
   target="_blank"
   rel="noopener noreferrer"
 >
@@ -62,17 +62,37 @@ const Hero = () => {
           
 
           {/* Social Icons */}
-          <div className="flex justify-center gap-6 pt-8 animate-fade-in stagger-4">
-            <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float">
-              <Github className="h-6 w-6" />
-            </Button>
-            <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float stagger-1">
-              <Linkedin className="h-6 w-6" />
-            </Button>
-            <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float stagger-2">
-              <Mail className="h-6 w-6" />
-            </Button>
-          </div>
+          {/* Social Icons */}
+<div className="flex justify-center gap-6 pt-8 animate-fade-in stagger-4">
+  {/* GitHub */}
+  <a
+    href="https://github.com/nikita-sinhaa"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float">
+      <Github className="h-6 w-6" />
+    </Button>
+  </a>
+
+  {/* LinkedIn */}
+  <a
+    href="https://www.linkedin.com/in/nikita-sinhaa/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float stagger-1">
+      <Linkedin className="h-6 w-6" />
+    </Button>
+  </a>
+
+  {/* Email */}
+  <a href="mailto:nikita.sinhaa@gmail.com">
+    <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float stagger-2">
+      <Mail className="h-6 w-6" />
+    </Button>
+  </a>
+</div>
         </div>
       </div>
 
