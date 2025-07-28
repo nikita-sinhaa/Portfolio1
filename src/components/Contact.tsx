@@ -35,15 +35,15 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4">Send Email</h3>
               
-              <Button   className="h-12 w-12 hover-glow animate-float stagger-2"
-                variant="glow" 
-                size="lg" 
-                onClick={handleSendEmail}
-               
-              >
-                <Mail className="h-6 w-6" />
-                Send Email
-              </Button>
+              <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=nikita.sinhaa@gmail.com&su=Let's%20Connect&body=Hi%20Nikita,"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float stagger-2">
+    <Mail className="h-6 w-6" />
+  </Button>
+</a>
             </CardContent>
           </Card>
 
