@@ -61,7 +61,7 @@ const Navigation = () => {
                 className="hover:scale-105 transition-transform"
               >
                 <img 
-                  src="https://drive.google.com/file/d/1dpstWZNxlU7FyW4uamMNPW6JBdk3oc_w/view?usp=drive_link" 
+                  src="/lovable-uploads/6c2ec6ba-7d74-4571-9c3b-ca94925e9e64.png" 
                   alt="Nikita Sinha Logo" 
                   className="h-10 w-10 object-contain"
                 />
