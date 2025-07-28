@@ -1,13 +1,13 @@
 const Companies = () => {
  const companies = [
-  { name: "Keelworks", logo: "https://www.keelworks.org/assets/logo.svg" },
-  { name: "Kohler", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Kohler_logo.svg" },
-  { name: "Kirloskar", logo: "https://upload.wikimedia.org/wikipedia/en/4/4a/Kirloskar_Group_Logo.svg" },
-  { name: "IITD", logo: "https://upload.wikimedia.org/wikipedia/en/2/25/IIT_Delhi_Logo.svg" },
-  { name: "IITK", logo: "https://upload.wikimedia.org/wikipedia/en/5/5b/IIT_Kanpur_Logo.svg" },
-  { name: "Purdue", logo: "https://upload.wikimedia.org/wikipedia/en/1/1e/Purdue_Boilermakers_logo.svg" },
-  { name: "Indiana", logo: "https://upload.wikimedia.org/wikipedia/en/9/9f/Indiana_Hoosiers_logo.svg" },
-  { name: "IGW", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d0/IGW-Logo.svg" }
+  { name: "Keelworks", logo: "/assets/KeelWorks.png" },
+  { name: "Kohler", logo: "/assets/Kohler_logo.svg.png"},
+  { name: "Kirloskar", logo: "/assets/Kirloskar_Group_Logo.svg.png" },
+  { name: "IITD", logo: "/assets/Indian_Institute_of_Technology_Delhi_Logo.svg.png" },
+  { name: "IITK", logo: "/assets/IIT_Kanpur_Logo.svg.png" },
+  { name: "Purdue", logo: "/assets/Purdue_University_seal.svg.png" },
+  { name: "Indiana", logo: "/assets/Indiana_University_logotype.svg.png" },
+  { name: "IGW", logo:"/assets/IGW_Logo.png" }
 ];
 
   return (
