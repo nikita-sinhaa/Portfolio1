@@ -61,7 +61,7 @@ const Navigation = () => {
                 className="hover:scale-105 transition-transform"
               >
                 <img 
-                  src="src/assets/Adobe Express - file (1).png" 
+                  src="https://drive.google.com/file/d/1dpstWZNxlU7FyW4uamMNPW6JBdk3oc_w/view?usp=drive_link" 
                   alt="Nikita Sinha Logo" 
                   className="h-10 w-10 object-contain"
                 />
