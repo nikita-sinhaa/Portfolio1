@@ -30,7 +30,11 @@ const Hero = () => {
            Embedded Engineer who is turning real time challenges into real world solutions
           </p>
           
-   <a href="https://drive.google.com/file/d/12PafDLQuNIJJTCDmBNTZnlXn5xv0uXKn/view?usp=drive_link" download>
+   <a
+  href="https://drive.google.com/file/d/12PafDLQuNIJJTCDmBNTZnlXn5xv0uXKn/view?usp=drive_link"
+  target="_blank"
+  rel="noopener noreferrer"
+>
   <Button variant="glow" size="lg" className="group hover-glow animate-glow-pulse">
     <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
     Download Resume
@@ -53,8 +57,7 @@ const Hero = () => {
               <Mail className="h-6 w-6" />
             </Button>
           </div>
-        </div>
-      </div>
+        
       
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
