@@ -66,17 +66,34 @@ const About = () => {
 <p className="text-foreground/90 font-semibold leading-relaxed mb-4">💬 Code as Conversation</p>
 <p className="text-foreground/90 leading-relaxed mb-4">I treat embedded code as a dialogue with hardware—and I listen carefully.
               </p>
-              <p className="text-foreground/90 leading-relaxed">
-                Music flows through my daily routine - whether it's finding rhythm in algorithms or 
-                discovering how sound processing principles apply to signal filtering in my embedded projects. 
-                These seemingly different worlds often collide in the most beautiful ways.
-              </p>
             </CardContent>
           </Card>
-
+<Card className="bg-card/50 border-border hover:bg-card/80 transition-all duration-300 hover:shadow-card animate-scale-in stagger-3 overflow-hidden">
+            <div className="grid md:grid-cols-2 gap-0">
+              <CardContent className="p-8 flex flex-col justify-center">
+                <h3 className="text-2xl font-semibold mb-6 text-gradient">My Goals🚀 </h3>
+                <p className="text-foreground/90 leading-relaxed mb-4">
+                  💼 Land my dream job where I could explore my knowledge to fullest.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">🧘‍♀️ Stay grounded and growing: physically stronger, mentally sharper.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">🛠 Build a real time system that genuinely helps people.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">🤝 Be part of impactful work at the intersection of humanity and technology.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">🌍 Travel the world’s national parks and collect stories from every corner.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">🏡 Build my parents’ dream home nestled in the quiet of the hills.
+                </p>
+              </CardContent>
+              <div className="relative h-64 md:h-auto">
+                <img 
+                  src={futureGoalsImage} 
+                  alt="Future goals under starry night sky" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-l from-transparent to-card/20" />
+              </div>
+            </div>
+          </Card>
           <Card className="bg-card/50 border-border hover:bg-card/80 transition-all duration-300 hover:shadow-card animate-scale-in stagger-2 overflow-hidden">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-semibold mb-6 text-gradient">When I'm Not in Firmware Mode</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-gradient">Thing that Attracts Me </h3>
               <h4 className="text-2xl font-italics mb-6 text-gradient italic-heading"> Stories from My Perspective📸</h4>
               <p className="text-foreground/90 leading-relaxed mb-4">
                Photography is how I see things just quietly, carefully, and sometimes differently 👀📷. 
@@ -114,29 +131,7 @@ const About = () => {
             </CardContent>
           </Card>
 
-          <Card className="bg-card/50 border-border hover:bg-card/80 transition-all duration-300 hover:shadow-card animate-scale-in stagger-3 overflow-hidden">
-            <div className="grid md:grid-cols-2 gap-0">
-              <CardContent className="p-8 flex flex-col justify-center">
-                <h3 className="text-2xl font-semibold mb-6 text-gradient">My Goals🚀 </h3>
-                <p className="text-foreground/90 leading-relaxed mb-4">
-                  💼 Land my dream job where I could explore my knowledge to fullest.</p>
-                  <p className="text-foreground/90 leading-relaxed mb-4">🧘‍♀️ Stay grounded and growing: physically stronger, mentally sharper.</p>
-                  <p className="text-foreground/90 leading-relaxed mb-4">🛠 Build a real time system that genuinely helps people.</p>
-                  <p className="text-foreground/90 leading-relaxed mb-4">🤝 Be part of impactful work at the intersection of humanity and technology.</p>
-                  <p className="text-foreground/90 leading-relaxed mb-4">🌍 Travel the world’s national parks and collect stories from every corner.</p>
-                  <p className="text-foreground/90 leading-relaxed mb-4">🏡 Build my parents’ dream home nestled in the quiet of the hills.
-                </p>
-              </CardContent>
-              <div className="relative h-64 md:h-auto">
-                <img 
-                  src={futureGoalsImage} 
-                  alt="Future goals under starry night sky" 
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-l from-transparent to-card/20" />
-              </div>
-            </div>
-          </Card>
+          
         </div>
       </div>
     </section>
