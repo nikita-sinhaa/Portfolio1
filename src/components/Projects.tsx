@@ -16,9 +16,9 @@ const Projects = () => {
       github: "https://github.com/nikita-sinhaa/Real-Time-Object-Detection-Acceleration-Using-Transfer-Learning",
      
       highlights: [
-        "⚡ YOLOv5s model in Python (PyTorch) for lightweight object detection",
-        "⚡ Bounding box filtering and Non-Maximum Suppression (NMS) simulated in VHDL hardware",
-        "🚀 Achieves ~30 FPS inference with simulated FPGA co-processing"
+        "YOLOv5s model in Python (PyTorch) for lightweight object detection",
+        "Bounding box filtering and Non-Maximum Suppression (NMS) simulated in VHDL hardware",
+        "Achieves ~30 FPS inference with simulated FPGA co-processing"
       ]
     },
     {
@@ -29,10 +29,10 @@ const Projects = () => {
       github: "https://github.com/nikita-sinhaa/Smart-Market-AI",
       
       highlights: [
-       "🎯 Conversion Prediction using Gradient Boosting",
-        "💸 Dynamic Bid Price Optimization via Regression",
-"🕵️‍♀️ Fraud Detection via both Isolation Forest and GNN (Graph Neural Network)",
-"📊 Streamlit-based UI for campaign simulation and experimentation"
+       "Conversion Prediction using Gradient Boosting",
+        "Dynamic Bid Price Optimization via Regression",
+"Fraud Detection via both Isolation Forest and GNN (Graph Neural Network)",
+"Streamlit-based UI for campaign simulation and experimentation"
       ]
     },
     {
@@ -44,9 +44,9 @@ const Projects = () => {
       
       highlights: [
         "🎙️ Beamforming for Directional Audio Focus",
-"🧠 Real-Time Noise Suppression using Spectral Subtraction",
-"🔊 Voice Activity Detection (VAD) for Accurate Speech Boundaries",
-"🛠️ Modular DSP Pipeline Architecture for Scalability"
+"Real-Time Noise Suppression using Spectral Subtraction",
+"Voice Activity Detection (VAD) for Accurate Speech Boundaries",
+"Modular DSP Pipeline Architecture for Scalability"
       ]
     }
   ];
