@@ -39,7 +39,7 @@ const Expertise = () => {
             Technical Expertise
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in stagger-1">
-           2+ years of experience engineering embedded solutions for manufacturing environments—ranging from sensor
+           2+ years of experience engineering embedded solutions for manufacturing environments ranging from sensor
             integration on STM32 to FPGA-accelerated vision systems and PLC-grade control applications, 
             with a strong focus on reliability, timing, and performance.
           </p>
