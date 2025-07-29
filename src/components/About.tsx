@@ -70,7 +70,7 @@ const About = () => {
 <p className="text-foreground/90 leading-relaxed mb-4">Firmware demands discipline. I trace bugs down to the bit level with calm focus.</p>
 <p className="text-foreground/90 font-semibold leading-relaxed mb-4">Iterative Mindset</p>
 <p className="text-foreground/90 leading-relaxed mb-4">Every failure is a signal. I refine, retest, and learn with every cycle.</p>
-<p className="text-foreground/90 font-semibold leading-relaxed mb-4">🛠Tools Are My Allies</p>
+<p className="text-foreground/90 font-semibold leading-relaxed mb-4">Tools Are My Allies</p>
 <p className="text-foreground/90 leading-relaxed mb-4">Oscilloscopes, debuggers, logs. I use the right tools to make invisible problems visible.</p>
 <p className="text-foreground/90 font-semibold leading-relaxed mb-4">Code as Conversation</p>
 <p className="text-foreground/90 leading-relaxed mb-4">I treat embedded code as a dialogue with hardware and I listen carefully.
