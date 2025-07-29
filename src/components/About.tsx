@@ -62,17 +62,17 @@ const About = () => {
           <Card className="bg-card/50 border-border hover:bg-card/80 transition-all duration-300 hover:shadow-card animate-scale-in stagger-1">
             <CardContent className="p-8">
               <h3 className="text-2xl font-semibold mb-6 text-gradient"> Beyond the Code: My Approach to Problem-Solving</h3>
-              <p className="text-foreground/90 font-semibold leading-relaxed mb-4"> 🔍 Diagnose Before Debugging</p>
+              <p className="text-foreground/90 font-semibold leading-relaxed mb-4"> Diagnose Before Debugging</p>
                <p className="text-foreground/90 leading-relaxed mb-4"> I don't jump to fixes but I step back to understand root causes and system behavior.</p>  
-              <p className="text-foreground/90 font-semibold leading-relaxed mb-4">🧠 Systems Thinking</p>
+              <p className="text-foreground/90 font-semibold leading-relaxed mb-4">Systems Thinking</p>
 <p className="text-foreground/90 leading-relaxed mb-4">I break problems into signals, states, and interfaces treating hardware and software as a unified whole.</p>
-<p className="text-foreground/90 font-semibold leading-relaxed mb-4">📐 Precision + Patience</p>
+<p className="text-foreground/90 font-semibold leading-relaxed mb-4">Precision + Patience</p>
 <p className="text-foreground/90 leading-relaxed mb-4">Firmware demands discipline. I trace bugs down to the bit level with calm focus.</p>
-<p className="text-foreground/90 font-semibold leading-relaxed mb-4">🔄 Iterative Mindset</p>
+<p className="text-foreground/90 font-semibold leading-relaxed mb-4">Iterative Mindset</p>
 <p className="text-foreground/90 leading-relaxed mb-4">Every failure is a signal. I refine, retest, and learn with every cycle.</p>
-<p className="text-foreground/90 font-semibold leading-relaxed mb-4">🛠️ Tools Are My Allies</p>
+<p className="text-foreground/90 font-semibold leading-relaxed mb-4">🛠Tools Are My Allies</p>
 <p className="text-foreground/90 leading-relaxed mb-4">Oscilloscopes, debuggers, logs. I use the right tools to make invisible problems visible.</p>
-<p className="text-foreground/90 font-semibold leading-relaxed mb-4">💬 Code as Conversation</p>
+<p className="text-foreground/90 font-semibold leading-relaxed mb-4">Code as Conversation</p>
 <p className="text-foreground/90 leading-relaxed mb-4">I treat embedded code as a dialogue with hardware and I listen carefully.
               </p>
             </CardContent>
@@ -80,14 +80,14 @@ const About = () => {
 <Card className="bg-card/50 border-border hover:bg-card/80 transition-all duration-300 hover:shadow-card animate-scale-in stagger-3 overflow-hidden">
             <div className="grid md:grid-cols-2 gap-0">
               <CardContent className="p-8 flex flex-col justify-center">
-                <h3 className="text-2xl font-semibold mb-6 text-gradient">My Goals🚀 </h3>
+                <h3 className="text-2xl font-semibold mb-6 text-gradient">My Goals </h3>
                 <p className="text-foreground/90 leading-relaxed mb-4">
-                  💼 Land my dream job where I could explore my knowledge to fullest.</p>
-                  <p className="text-foreground/90 leading-relaxed mb-4">🧘‍♀️ Stay grounded and growing: physically stronger, mentally sharper.</p>
-                  <p className="text-foreground/90 leading-relaxed mb-4">🛠 Build a real time system that genuinely helps people.</p>
-                  <p className="text-foreground/90 leading-relaxed mb-4">🤝 Be part of impactful work at the intersection of humanity and technology.</p>
-                  <p className="text-foreground/90 leading-relaxed mb-4">🌍 Travel the world’s national parks and collect stories from every corner.</p>
-                  <p className="text-foreground/90 leading-relaxed mb-4">🏡 Build my parents’ dream home nestled in the quiet of the hills.
+                   Land my dream job where I could explore my knowledge to fullest.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">Stay grounded and growing: physically stronger, mentally sharper.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">Build a real time system that genuinely helps people.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">Be part of impactful work at the intersection of humanity and technology.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">Travel the world’s national parks and collect stories from every corner.</p>
+                  <p className="text-foreground/90 leading-relaxed mb-4">Build my parents’ dream home nestled in the quiet of the hills.
                 </p>
               </CardContent>
               <div className="relative h-64 md:h-auto">
@@ -105,8 +105,8 @@ const About = () => {
               <h3 className="text-2xl font-semibold mb-6 text-gradient">Thing that Attracts Me </h3>
               <h4 className="text-2xl font-italics mb-6 text-gradient italic-heading"> Stories from My Perspective</h4>
               <p className="text-foreground/90 leading-relaxed mb-4">
-               Photography is how I see things just quietly, carefully, and sometimes differently 👀📷. 
-                It’s not about taking photos. It’s about noticing what’s worth remembering ✨🖼️
+               Photography is how I see things just quietly, carefully, and sometimes differently. 
+                It’s not about taking photos. It’s about noticing what’s worth remembering.
               </p>
               <div className="grid grid-cols-3 grid-rows-3 gap-4 mt-6">
                 <div className="relative group overflow-hidden rounded-lg">
