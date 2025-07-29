@@ -12,7 +12,7 @@ const Projects = () => {
       title: "Real-Time Object Detection Acceleration Using Transfer Learning and FPGA",
       description: "This project showcases a hybrid AI + FPGA system that accelerates object detection post-processing in real-time",
       image: projectIot,
-      technologies: ["ESP32", "LoRaWAN", "FreeRTOS", "C++", "MQTT", "Solar Power"],
+      technologies: ["Python", "C++", "VHDL", "FPGA", "AI", "Signal Processing"],
       github: "https://github.com/nikita-sinhaa/Real-Time-Object-Detection-Acceleration-Using-Transfer-Learning",
      
       highlights: [
@@ -25,7 +25,7 @@ const Projects = () => {
       title: " Smart Market AI",
       description: "SmartMarketAI is a complete machine learning pipeline and interactive dashboard that simulates a marketing platform's core decision-making intelligence.",
       image: projectAutomation,
-      technologies: ["STM32", "Safety PLC", "CAN Bus", "IEC 61508", "C", "Qt"],
+      technologies: ["Python", "ML", "PyTorch"],
       github: "https://github.com/nikita-sinhaa/Smart-Market-AI",
       
       highlights: [
@@ -39,7 +39,7 @@ const Projects = () => {
       title: "Speech-Enhancement-for-Far-field-Voice-Assistants",
       description: "Design a speech enhancement pipeline using beamforming and noise reduction to improve far-field audio captured by virtual microphones.",
       image: projectWearable,
-      technologies: ["nRF52", "Zephyr OS", "BLE", "TensorFlow Lite", "Python", "Flutter"],
+      technologies: ["C", "Real time", "BLE", "Signal Processing", "Voice control"],
       github: "https://github.com/nikita-sinhaa/Speech-Enhancement-for-Far-field-Voice-Assistants",
       
       highlights: [
