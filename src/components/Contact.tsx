@@ -9,7 +9,7 @@ const Contact = () => {
 
   const handleScheduleCall = () => {
     // Replace with your actual scheduling link (Calendly, Cal.com, etc.)
-    window.open("https://calendly.com/nikita-sinha", "_blank");
+    window.open("https://calendly.com/nikitaa-sinhaa/30min", "_blank");
   };
 
   return (
