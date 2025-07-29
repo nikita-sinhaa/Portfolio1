@@ -87,7 +87,7 @@ const Hero = () => {
   </a>
 
   {/* Email */}
-  <a href="mailto:nikita.sinhaa@gmail.com">
+  <a href="mailto:nikitaa.sinhaa@gmail.com">
     <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float stagger-2" aria-label="Send Email">
       <Mail className="h-6 w-6" />
     </Button>
