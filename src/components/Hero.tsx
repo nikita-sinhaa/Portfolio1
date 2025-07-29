@@ -48,7 +48,7 @@ const Hero = () => {
             </a>
 
             <a
-  href="ttps://calendly.com/nikitaa-sinhaa"
+  href="https://calendly.com/nikitaa-sinhaa"
   target="_blank"
   rel="noopener noreferrer"
 >
