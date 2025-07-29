@@ -41,7 +41,7 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="glow" size="lg" className="group hover-glow animate-glow-pulse">
+              <Button variant="glow" size="lg" className="group hover-glow">
                 <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
                 Download Resume
               </Button>
