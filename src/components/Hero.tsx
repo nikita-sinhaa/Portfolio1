@@ -63,14 +63,14 @@ const Hero = () => {
 
           {/* Social Icons */}
           {/* Social Icons */}
-<div className="flex justify-center gap-6 pt-8 animate-fade-in stagger-4">
+<div className="flex justify-center gap-6 pt-8 ">
   {/* GitHub */}
   <a
     href="https://github.com/nikita-sinhaa"
     target="_blank"
     rel="noopener noreferrer"
   >
-    <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float">
+    <Button variant="ghost" size="icon" className="h-12 w-12 ">
       <Github className="h-6 w-6" />
     </Button>
   </a>
@@ -81,14 +81,14 @@ const Hero = () => {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float stagger-1" >
+    <Button variant="ghost" size="icon" className="h-12 w-12 " >
       <Linkedin className="h-6 w-6" />
     </Button>
   </a>
 
   {/* Email */}
   <a href="mailto:nikitaa.sinhaa@gmail.com">
-    <Button variant="ghost" size="icon" className="h-12 w-12 hover-glow animate-float stagger-2" aria-label="Send Email">
+    <Button variant="ghost" size="icon" className="h-12 w-12 " aria-label="Send Email">
       <Mail className="h-6 w-6" />
     </Button>
   </a>
