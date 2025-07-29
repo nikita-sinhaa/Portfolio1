@@ -46,7 +46,6 @@ const Projects = () => {
         "🎙️ Beamforming for Directional Audio Focus",
 "🧠 Real-Time Noise Suppression using Spectral Subtraction",
 "🔊 Voice Activity Detection (VAD) for Accurate Speech Boundaries",
-"🧪 MATLAB + Python Simulation for Acoustic Modeling",
 "🛠️ Modular DSP Pipeline Architecture for Scalability"
       ]
     }
