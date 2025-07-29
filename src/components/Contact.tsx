@@ -4,7 +4,7 @@ import { Mail, Calendar } from "lucide-react";
 
 const Contact = () => {
   const handleSendEmail = () => {
-    window.location.href = "mailto:nikita.sinha@example.com?subject=Let's Work Together&body=Hi Nikita, I'd love to discuss a potential collaboration...";
+    window.location.href = "mailto:nikitaa.sinhaa@example.com?subject=Let's Work Together&body=Hi Nikita, I'd love to discuss a potential collaboration...";
   };
 
   const handleScheduleCall = () => {
@@ -34,9 +34,6 @@ const Contact = () => {
                 </div>
               </div>
               <h3 className="text-xl font-semibold mb-4">Send Email</h3>
-              <p className="text-muted-foreground mb-6">
-                Drop me a line about your project ideas and requirements
-              </p>
               <Button 
                 variant="glow" 
                 size="lg" 
@@ -57,9 +54,6 @@ const Contact = () => {
                 </div>
               </div>
               <h3 className="text-xl font-semibold mb-4">Schedule Call</h3>
-              <p className="text-muted-foreground mb-6">
-                Book a 30-minute consultation to discuss your project in detail
-              </p>
               <Button 
                 variant="tech" 
                 size="lg" 
@@ -75,7 +69,7 @@ const Contact = () => {
 
         <div className="mt-12 animate-fade-in stagger-2">
           <p className="text-sm text-muted-foreground">
-            Response time: Usually within 24 hours • Available for remote and on-site projects
+          Available for remote , hybrid and on-site role. 
           </p>
         </div>
       </div>
