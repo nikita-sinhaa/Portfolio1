@@ -43,7 +43,7 @@ const Projects = () => {
       github: "https://github.com/nikita-sinhaa/Speech-Enhancement-for-Far-field-Voice-Assistants",
       
       highlights: [
-        "🎙️ Beamforming for Directional Audio Focus",
+        "Beamforming for Directional Audio Focus",
 "Real-Time Noise Suppression using Spectral Subtraction",
 "Voice Activity Detection (VAD) for Accurate Speech Boundaries",
 "Modular DSP Pipeline Architecture for Scalability"
