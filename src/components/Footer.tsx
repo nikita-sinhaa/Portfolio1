@@ -35,7 +35,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-center text-muted-foreground text-sm">
-            By Nikita Sinha: the sensor enthusiast turned firmware engineer @2025
+            By Nikita Sinha: the sensor enthusiast turned embedded engineer @2025
           </p>
         </div>
       </div>
