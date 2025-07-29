@@ -106,8 +106,9 @@ const About = () => {
               <h3 className="text-2xl font-semibold mb-6 text-gradient">Thing that Attracts Me </h3>
               <h4 className="text-2xl font-italics mb-6 text-gradient italic-heading"> Stories from My Perspective</h4>
               <p className="text-foreground/90 leading-relaxed mb-4">
-               Photography is how I see things just quietly, carefully, and sometimes differently. 
-                It’s not about taking photos. It’s about noticing what’s worth remembering.
+               Photography is how I see things just quietly, carefully, and sometimes differently. </p>
+              <p className="text-foreground/90 leading-relaxed mb-4">  It’s not about taking photos. </p>
+                <p className="text-foreground/90 leading-relaxed mb-4">It’s about noticing what’s worth remembering.
               </p>
               <div className="grid grid-cols-3 grid-rows-3 gap-4 mt-6">
                 <div className="relative group overflow-hidden rounded-lg">
@@ -190,7 +191,7 @@ const About = () => {
             <CardContent className="p-8">
               <h4 className="text-2xl font-italics mb-6 text-gradient italic-heading"> Stories from My Pen</h4>
               <p className="text-foreground/90 leading-relaxed mb-4">
-               Words are where I go when silence feels full. Through poetry, I write what I can’t always say. It includes moments, memories, and musings that live between the lines.
+               Words are where I go when silence feels full.  Through poetry, I write what I can’t always say.</p> <p className="text-foreground/90 leading-relaxed mb-4">It includes moments, memories, and musings that live between the lines.
               </p>
               <div className="grid grid-cols-3 gap-4 mt-6">
                 <div className="relative group overflow-hidden rounded-lg">
@@ -218,12 +219,12 @@ const About = () => {
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
               </div>
-              <p className="text-sm text-muted-foreground text-center mt-3">
-                Capturing moments through photography and expressing emotions through poetry
-              </p>
+              
             </CardContent>
           </Card>
-          
+          <p className="text-sm text-muted-foreground text-center mt-3">
+                Capturing moments through photography and expressing emotions through poetry
+              </p>
         </div>
       </div>
     </section>
