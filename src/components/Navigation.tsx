@@ -104,13 +104,13 @@ const Navigation = () => {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-background/95 backdrop-blur-md border-b border-border rounded-b-lg">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-background/30 backdrop-blur-md border-b border-border rounded-b-lg">
               {navItems.map((item) => (
                 <Button
                   key={item.name}
                   variant="ghost"
                   onClick={() => handleNavClick(item)}
-                  className="w-full justify-start hover:text-primary hover:bg-primary/10"
+                  className="w-full justify-start hover:text-primary hover:bg-amber-100"
                 >
                   {item.name}
                 </Button>
