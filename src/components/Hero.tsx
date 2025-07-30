@@ -96,10 +96,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-1 h-16 bg-gradient-primary rounded-full opacity-60" />
-      </div>
+
     </section>
   );
 };
