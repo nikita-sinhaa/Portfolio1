@@ -37,7 +37,7 @@ const Hero = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in stagger-3">
             <a
-              href="https://drive.google.com/file/d/12PafDLQuNIJJTCDmBNTZnlXn5xv0uXKn/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1nOpr_8HPx331m4lWttVAerPVOXb2jN-c/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
