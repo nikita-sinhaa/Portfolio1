@@ -28,7 +28,7 @@ const Hero = () => {
             Nikita Sinha
           </h1>
           <h2 className="text-2xl md:text-3xl text-muted-foreground font-light animate-fade-in stagger-1">
-            Embedded Engineer
+            Embedded Engineer at Jasco Applied Science
           </h2>
           <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto leading-relaxed animate-fade-in stagger-2">
             Embedded Engineer who is turning real-time challenges into real-world solutions
@@ -37,7 +37,7 @@ const Hero = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in stagger-3">
             <a
-              href="https://drive.google.com/file/d/1nOpr_8HPx331m4lWttVAerPVOXb2jN-c/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1vM06G_q9JzH__ubQ3YBSOr0X35jnFq3X/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
