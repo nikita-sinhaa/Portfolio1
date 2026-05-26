@@ -12,7 +12,7 @@ import i6 from "@/assets/6.jpg";
 import i7 from "@/assets/7.jpg";
 import i8 from "@/assets/8.jpg";
 import i9 from "@/assets/9.jpg";
-import i11 from "@/assets/15.png";
+import i11 from "@/assets/17.png";
 import i12 from "@/assets/14.png";
 import i13 from "@/assets/16.png";
 
