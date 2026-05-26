@@ -6,9 +6,11 @@ import IITKLogo from '../assets/IITK.svg';
 import PurdueLogo from '../assets/Purdue.svg';
 import IULogo from '../assets/IU.svg';
 import IGWLogo from '../assets/IGW.svg';
+import JASCOLogo from '../assets/JASCO.svg';
 
 const Companies = () => {
   const companies = [
+    {name: "JASCO", logo: JASCOLogo},
     { name: "Keelworks", logo: KeelworksLogo },
     { name: "Kohler", logo: KohlerLogo },
     { name: "Kirloskar", logo: KirloskarLogo },
@@ -17,6 +19,7 @@ const Companies = () => {
     { name: "Purdue", logo: PurdueLogo },
     { name: "Indiana", logo: IULogo },
     { name: "IGW", logo: IGWLogo },
+    
   ];
 
   return (
