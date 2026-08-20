@@ -69,7 +69,7 @@ const Contact = () => {
 
         <div className="mt-12 animate-fade-in stagger-2">
           <p className="text-sm text-muted-foreground">
-          Available for remote , hybrid and on-site role. 
+          Available for remote , hybrid and on-site role in India, Europe, and Asia. 
           </p>
         </div>
       </div>
