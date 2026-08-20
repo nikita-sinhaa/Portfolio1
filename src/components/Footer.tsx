@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-center space-y-4">
           <div className="flex items-center space-x-6">
             <a
-              href="https://drive.google.com/file/d/1vM06G_q9JzH__ubQ3YBSOr0X35jnFq3X/view?usp=sharing"
+              href="https://drive.google.com/file/d/1H750Ikm7NE9JBSEgwqVa4rbt-N6aZkHt/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors"
