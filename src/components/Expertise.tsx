@@ -4,11 +4,7 @@ import { Cpu, Zap, Cog, Shield } from "lucide-react";
 
 const Expertise = () => {
   const highlights = [
-     {
-      icon: <Cog className="h-6 w-6" />,
-      title: " AI, Machine Learning & Software Development",
-      description: "Python, C++, #C, MatLab, VHDL & VeriLog"
-    },{
+  {
       icon: <Cpu className="h-6 w-6" />,
       title: "Embedded Systems and Microcontrollers ",
       description: "STM32, ESP32, ARM, ZigBee, Kiel, UEFI/BIOS development and Raspberry Pi platforms"
@@ -23,6 +19,10 @@ const Expertise = () => {
       icon: <Shield className="h-6 w-6" />,
       title: "Signal Processing & FPGA",
       description: "Vivado, Xilinx ZCU102, Xilinx Pynq, FFT, UART & JTAGs "
+    },   {
+      icon: <Cog className="h-6 w-6" />,
+      title: " AI, Machine Learning & Software Development",
+      description: "Python, C++, #C, MatLab, VHDL & VeriLog"
     }
   ];
 
@@ -39,7 +39,7 @@ const Expertise = () => {
             Technical Expertise
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in stagger-1">
-           2+ years of experience engineering embedded solutions for manufacturing environments ranging from sensor
+           3+ years of experience engineering embedded solutions for manufacturing environments ranging from sensor
             integration on STM32 to FPGA-accelerated vision systems and PLC-grade control applications, 
             with a strong focus on reliability, timing, and performance.
           </p>
