@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Download, ArrowDown, Calender } from "lucide-react";
+import { Github, Linkedin, Mail, Download, Calender } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
 
 
