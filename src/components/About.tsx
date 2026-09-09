@@ -67,17 +67,17 @@ Outside the work, you’ll find me writing, exploring new places, cooking someth
             <CardContent className="p-8">
               <h3 className="text-2xl font-semibold mb-6 text-gradient"> Beyond the Code: My Approach to Problem-Solving</h3>
               <p className="text-foreground/90 font-semibold leading-relaxed mb-4"> Diagnose Before Debugging</p>
-               <p className="text-foreground/90 leading-relaxed mb-4"> I don't jump to fixes but I step back to understand root causes and system behavior.</p>  
+               <p className="text-foreground/90 leading-relaxed mb-4">I don’t jump to fixes. I step back, understand the system, and find the root cause before changing the code.</p>  
               <p className="text-foreground/90 font-semibold leading-relaxed mb-4">Systems Thinking</p>
-<p className="text-foreground/90 leading-relaxed mb-4">I break problems into signals, states, and interfaces treating hardware and software as a unified whole.</p>
+<p className="text-foreground/90 leading-relaxed mb-4">I break complex problems into signals, states, interfaces, and dependencies treating hardware and software as one system.</p>
 <p className="text-foreground/90 font-semibold leading-relaxed mb-4">Precision + Patience</p>
-<p className="text-foreground/90 leading-relaxed mb-4">Firmware demands discipline. I trace bugs down to the bit level with calm focus.</p>
+<p className="text-foreground/90 leading-relaxed mb-4">Firmware demands discipline. I trace problems from system behavior down to the bit level with methodical focus.</p>
 <p className="text-foreground/90 font-semibold leading-relaxed mb-4">Iterative Mindset</p>
-<p className="text-foreground/90 leading-relaxed mb-4">Every failure is a signal. I refine, retest, and learn with every cycle.</p>
+<p className="text-foreground/90 leading-relaxed mb-4">Every failure is data. I refine, retest, and improve through every development cycle.</p>
 <p className="text-foreground/90 font-semibold leading-relaxed mb-4">Tools Are My Allies</p>
-<p className="text-foreground/90 leading-relaxed mb-4">Oscilloscopes, debuggers, logs. I use the right tools to make invisible problems visible.</p>
+<p className="text-foreground/90 leading-relaxed mb-4">Oscilloscopes, logic analyzers, debuggers, and logs turn invisible failures into measurable evidence.</p>
 <p className="text-foreground/90 font-semibold leading-relaxed mb-4">Code as Conversation</p>
-<p className="text-foreground/90 leading-relaxed mb-4">I treat embedded code as a dialogue with hardware and I listen carefully.
+<p className="text-foreground/90 leading-relaxed mb-4">Embedded code is a dialogue with hardware. I write it to communicate clearly, respond predictably, and behave reliably.
               </p>
             </CardContent>
           </Card>
