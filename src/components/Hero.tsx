@@ -29,7 +29,7 @@ const Hero = () => {
           </h1>
           <h2 className="text-2xl md:text-3xl text-muted-foreground font-light animate-fade-in stagger-1">
            Embedded  & FPGA Engineer </h2>
-          </h2>
+          
           <h3 className="text-2xl md:text-3xl text-muted-foreground font-light animate-fade-in stagger-1">
            Firmware • FPGA • Real-Time Systems • Edge AI
           </h3>
