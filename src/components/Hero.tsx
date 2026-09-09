@@ -54,37 +54,44 @@ const Hero = () => {
             efficient and reliable systems.
           </p>
 
-          {/* Buttons */}
-          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-10 animate-fade-in stagger-3">
+     ```tsx
+{/* Buttons */}
+<div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in stagger-3">
 
-            {/* View Projects */}
-            <a href="#projects">
-              <Button
-                variant="glow"
-                size="lg"
-                className="group hover-glow"
-              >
-                View Projects
-              </Button>
-            </a>
+  {/* View Projects */}
+  <a
+    href="#projects"
+    className="inline-block"
+  >
+    <Button
+      variant="glow"
+      size="lg"
+      className="hover-glow"
+    >
+      View Projects
+    </Button>
+  </a>
 
-            {/* Download Resume */}
-            <a
-              href="https://drive.google.com/file/d/1o9WH1-7J01Au5LTGycslHKePWMmr5FE9/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button
-                variant="tech"
-                size="lg"
-                className="group hover-scale"
-              >
-                <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
-                Download Resume
-              </Button>
-            </a>
+  {/* Download Resume */}
+  <a
+    href="https://drive.google.com/file/d/1o9WH1-7J01Au5LTGycslHKePWMmr5FE9/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block"
+  >
+    <Button
+      variant="tech"
+      size="lg"
+      className="group hover-scale"
+    >
+      <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
+      Download Resume
+    </Button>
+  </a>
 
-          </div>
+</div>
+```
+
 
           {/* Social Icons */}
           <div className="flex justify-center gap-6 pt-8">
