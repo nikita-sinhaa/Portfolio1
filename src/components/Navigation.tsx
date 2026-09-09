@@ -19,7 +19,7 @@ const Navigation = () => {
   const navItems = [
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
-    { name: "Resume", href: "https://drive.google.com/file/d/1H750Ikm7NE9JBSEgwqVa4rbt-N6aZkHt/view?usp=drive_link", external: true },
+    { name: "Resume", href: "https://drive.google.com/file/d/15pkYIV9qqQK27bncmFZ_Z9hwZcAjLnUq/view?usp=drive_link", external: true },
     { name: "GitHub", href: "https://github.com/nikita-sinhaa", external: true },
   ];
 
