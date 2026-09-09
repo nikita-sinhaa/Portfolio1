@@ -37,66 +37,110 @@ const Hero = () => {
             Embedded Engineer who is turning real-time challenges into real-world solutions.
           </p>
 
-          {/* Buttons */}
-          <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in stagger-3">
-            <a
-              href="https://drive.google.com/file/d/1o9WH1-7J01Au5LTGycslHKePWMmr5FE9/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="glow" size="lg" className="group hover-glow">
-                <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
-                Download Resume
-              </Button>
-            </a>
+        ```tsx
+{/* Buttons */}
+<div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in stagger-3">
 
-            <a
-  href="https://calendly.com/nikitaa-sinhaa"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <Button variant="tech" size="lg" className="hover-scale">
-    <Mail className="mr-2 h-5 w-5" />
-    Get In Touch
-  </Button>
-</a>
-          </div>
+  {/* View Projects */}
+  <a href="#projects">
+    <Button
+      variant="glow"
+      size="lg"
+      className="group hover-glow"
+    >
+      View Projects
+    </Button>
+  </a>
 
-          
+  {/* Download Resume */}
+  <a
+    href="https://drive.google.com/file/d/1o9WH1-7J01Au5LTGycslHKePWMmr5FE9/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button
+      variant="tech"
+      size="lg"
+      className="group hover-scale"
+    >
+      <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
+      Download Resume
+    </Button>
+  </a>
 
-          {/* Social Icons */}
-          {/* Social Icons */}
-<div className="flex justify-center gap-6 pt-8 ">
+</div>
+
+
+{/* Social Icons */}
+<div className="flex justify-center gap-6 pt-8">
+
   {/* GitHub */}
   <a
     href="https://github.com/nikita-sinhaa"
     target="_blank"
     rel="noopener noreferrer"
+    aria-label="GitHub"
   >
-    <Button variant="ghost" size="icon" className="h-12 w-12 ">
+    <Button
+      variant="ghost"
+      size="icon"
+      className="h-12 w-12"
+    >
       <Github className="h-6 w-6" />
     </Button>
   </a>
+
 
   {/* LinkedIn */}
   <a
     href="https://www.linkedin.com/in/nikita-sinhaa/"
     target="_blank"
     rel="noopener noreferrer"
+    aria-label="LinkedIn"
   >
-    <Button variant="ghost" size="icon" className="h-12 w-12 " >
+    <Button
+      variant="ghost"
+      size="icon"
+      className="h-12 w-12"
+    >
       <Linkedin className="h-6 w-6" />
     </Button>
   </a>
 
+
+  {/* Calendly */}
+  <a
+    href="https://calendly.com/nikitaa-sinhaa"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Schedule a meeting"
+  >
+    <Button
+      variant="ghost"
+      size="icon"
+      className="h-12 w-12"
+    >
+      <Calendar className="h-6 w-6" />
+    </Button>
+  </a>
+
+
   {/* Email */}
-  <a href="mailto:nikitaa.sinhaa@gmail.com">
-    <Button variant="ghost" size="icon" className="h-12 w-12 " aria-label="Send Email">
+  <a
+    href="mailto:nikitaa.sinhaa@gmail.com"
+    aria-label="Send Email"
+  >
+    <Button
+      variant="ghost"
+      size="icon"
+      className="h-12 w-12"
+    >
       <Mail className="h-6 w-6" />
     </Button>
   </a>
+
 </div>
-        </div>
+</div>
       </div>
 
 
@@ -105,3 +149,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
