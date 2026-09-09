@@ -22,15 +22,15 @@ const About = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16 animate-fade-in">
          <h2 class="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text inline-block"> BEYOND ENGINEERING <span class="text-white">WHO IS NIKITA? </span> </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in stagger-1">
+          <div className="space-y-5"><p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in stagger-1">
             Embedded Engineer, sensor enthusiast, and a proud real-time systems fanatic.</p>
 <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in stagger-1">Builder of firmware, FPGA logic, and systems that sense, compute, and respond.
 I turn hardware challenges into reliable solutions and make code work as hard as the hardware it runs on.</p>
-<p className="text-xl text-muted-foreground max-w-3xl mx-4 animate-fade-in stagger-1">
+<p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in stagger-1">
 Outside the lab, you’ll find me writing, exploring new places, cooking something spicy, or photographing the most random building around.
 
           </p>
-        </div>
+        </div></div>
 
         <div className="space-y-8 animate-slide-up">
           <Card className="bg-card/50 border-border hover:bg-card/80 transition-all duration-300 hover:shadow-card animate-scale-in overflow-hidden">
