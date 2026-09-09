@@ -35,7 +35,6 @@ const Hero = () => {
           </h3>
           <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto leading-relaxed animate-fade-in stagger-2">
             Embedded Engineer who is turning real-time challenges into real-world solutions.
-            I design and develop real-time embedded systems across firmware, FPGA, signal processing, and computer vision from low-level C,C++ and STM32 systems to FPGA-accelerated vision pipelines.
           </p>
 
           {/* Buttons */}
