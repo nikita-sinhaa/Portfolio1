@@ -27,7 +27,7 @@ const About = () => {
 <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in stagger-1">Builder of firmware, FPGA logic, and systems that sense, compute, and respond.
 I turn hardware challenges into reliable solutions and make code work as hard as the hardware it runs on.</p>
 <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in stagger-1">
-Outside the lab, you’ll find me writing, exploring new places, cooking something spicy, or photographing the most random building around.
+Outside the work, you’ll find me writing, exploring new places, cooking something unique, or photographing the most random building around.
 
           </p>
         </div></div>
